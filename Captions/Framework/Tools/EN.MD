@@ -63,9 +63,9 @@ Visual user permissions configuration
 
 UI Theme Editor
 
-Free
+##### Free
 
-Commercial
+##### Commercial
 
 Visual Tools are available in the commercial subscription of Jmix Studio.
 
