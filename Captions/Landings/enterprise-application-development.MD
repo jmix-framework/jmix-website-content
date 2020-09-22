@@ -9,3 +9,4 @@ The marketplace contains a rich collection of ready-to-use add-ons that cover al
 
 ### RAD TOOLS
 Jmix Studio is an extension for IntelliJ IDEA intended to boost productivity, break barriers to entry and make development a joy for both beginners and experts. Studio leverages the capabilities of the framework API by extensive code generation, smart prompts and visual designers. 
+
