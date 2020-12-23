@@ -1,8 +1,12 @@
-### An Open Source Rapid Application Development Platform  for Modern Web Applications
+### An Open Source Rapid Application Development Platform for Modern Web Applications
 
-Jmix provides powerful full stack architecture along with RAD tools for easy start and fast development of modern business web applications on Java and Kotlin.
+Jmix is the next generation of the CUBA Platform and is currently in Preview. Some features and documentation are yet under construction. The stable release is expected in Q2 2021.
 
-Get Started
+Learn more
+
+Jmix provides powerful full stack architecture along with RAD tools for easy start and fast development of modern business web applications in Java or Kotlin.
+
+Download
 
 LATEST RELEASES
 
@@ -15,7 +19,7 @@ Posts on Forum
 Downloads
 
 ### MODERN ARCHITECTURE
-Based on Spring Boot, Jmix introduces a higher-level API both for backend and frontend development, making development of business applications faster. 
+Based on Spring Boot, Jmix introduces a higher-level API both for backend and frontend, facilitating faster development of business applications. 
 
 Learn more
 
@@ -40,3 +44,7 @@ SPONSORED BY
 we develop modern enterprise solutions
 
 Visit Haulmont website
+
+Developed and sponsored by Haulmont 
+
+Terms of Use
