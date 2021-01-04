@@ -1,9 +1,9 @@
 ### Leave us a message
 
-### 欢迎留言
+### 留言给我们
 
 If you have a technical question, please use our support forum.
-如果你有技术方面的问题，请使用我们的支持 论坛。
+如果您有技术方面的问题，请通过我们的支持论坛来交流。
 
 Email
 电子邮件
