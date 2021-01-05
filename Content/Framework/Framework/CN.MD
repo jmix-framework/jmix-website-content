@@ -65,7 +65,7 @@ Unlike backoffice frontends, customer-facing UI often implies mobile-first desig
 ### 内置企业级功能
 
 POWERED BY
-POWERED BY
+动力源自
 
 What's next?
 下一步做什么？

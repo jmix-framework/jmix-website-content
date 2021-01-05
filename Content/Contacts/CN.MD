@@ -22,10 +22,12 @@ I have read and accept the privacy policy
 ### 总部
 
 Haulmont Technology Ltd
+Haulmont Technology Ltd
 
 Address:
 地址：
 
+286 Euston Rd, Kings Cross, London, England, NW1 3DP
 286 Euston Rd, Kings Cross, London, England, NW1 3DP
 
 ### Official Representatives
@@ -33,9 +35,13 @@ Address:
 ### 官方团队
 
 CHINA
+中国
 
+ITALY
 ITALY
 
 RUSSIA
+ITALY
 
 USA & CANADA
+ITALY

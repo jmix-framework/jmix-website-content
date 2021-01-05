@@ -27,7 +27,7 @@ Copy
 
 OVERVIEW
 The addon provides email sending facilities.
-此扩展提供电子邮件发送基础设施。
+此扩展提供发送电子邮件的基础功能。
 
 ### FEATURES
 ### 功能
@@ -37,11 +37,11 @@ The addon provides email sending facilities.
 
 * User interface to search and view information about sent messages, including all message attributes and content, sending status and the number of attempts.
 
-* 支持同步或异步发送。在同步发送时，调用方会等待消息发送到 SMPT 服务器。异步发送时，消息被存在到数据库并立即返回。实际的发达随后由计划任务完成。
+* 支持同步或异步发送。在同步发送时，调用方会等待消息发送到 SMTP 服务器。异步发送时，消息被存在到数据库并立即返回。实际的发送随后由计划任务完成。
 
-* 两种模式下都会存储发送错误或成功信息到数据库，以进行可靠性跟踪
+* 两种模式下都会存储发送错误或成功信息到数据库，以进行可靠性跟踪。
 
-* 提供用于搜索和查看有送已发消息的信息的界面，包括所有消息属性和内容、发送状态和尝试次数。
+* 提供用于搜索和查看已发消息的界面，包括所有消息属性和内容、发送状态和尝试次数。
 
 ### INSTALLATION
 ### 安装

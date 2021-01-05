@@ -32,7 +32,7 @@ Entity Inspector respects data access constraints imposed by security, so it can
 实体探查功能可以为实体提供自动生成的UI。 可以使用这些 UI 浏览、更新或移除实体实例，不需要专门创建 UI。
 另外，如果实体已经被软删除，可以使用实体探查功能浏览、恢复或清除这些实例。
 
-实体探查遵循框架的数据访问安全机制，所以这个功能对于管理员和普通用户都有用。
+实体探查遵循框架的数据访问安全机制，所以这个功能对于管理员和普通带权限限制的用户都可用。
 
 ### INSTALLATION
 ### 安装

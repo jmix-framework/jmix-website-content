@@ -51,7 +51,7 @@ Search
 搜索
 
 Add-ons found
-找到 4 个扩展
+找到的扩展
 
 TAGS
 标签

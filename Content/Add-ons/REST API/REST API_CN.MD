@@ -1,7 +1,9 @@
 ### REST API 
+### REST API 
 by Haulmont
 
 Back to marketplace
+返回市场
 
 ### Latest Version
 0.2.0
@@ -21,7 +23,7 @@ Bugtracker
 
 ### Tags
 Integration
-Integration 
+集成 
 
 ### Component Coordinates
 
@@ -47,7 +49,9 @@ Jmix 提供了一套通用的 REST API ，使用这些 API 你可以处理实体
 * 执行预定义的 JPQL 查询 
 * 上传下载文件
 * 返回数据模型信息 
-* 当前当前用户及其权限信息
+* 返回当前用户信息及其权限信息
+
+REST API 使用 OAuth2 协议做授权，也支持匿名访问。所有的通用 REST API 遵循框架的数据访问安全机制。
 
 ### NOTE
 ### 注意

@@ -44,7 +44,7 @@ Learn more
 ### 开箱即用的扩展插件
 
 The marketplace contains a rich collection of ready-to-use add-ons that cover all typical requirements for business applications and can be enabled with a mouse click.
-Jmix 市场包含了丰富的开箱即用扩展插件，几乎涵盖了业务系统中所有典型的需求，只需要几次鼠标点击即可使用。
+Jmix 市场包含了丰富的开箱即用扩展插件，几乎涵盖了业务系统中所有典型的需求，只需要鼠标点击一下即可使用。
 
 Learn more
 了解更多
@@ -69,7 +69,7 @@ TWITTER
 TWITTER
 
 SPONSORED BY
-SPONSORED BY
+赞助
 
 we develop modern enterprise solutions
 我们提供现代化企业解决方案
