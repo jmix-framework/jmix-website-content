@@ -141,6 +141,7 @@ If you want to migrate a project to a new framework version, simply open the pro
 
 #### 下一步做什么？
 
+Follow the Quick Start guide to get up and running in 15 minutes.
 花 15 分钟，根据快速开始向导建立一个简单项目并运行。
 
 Quick Start
