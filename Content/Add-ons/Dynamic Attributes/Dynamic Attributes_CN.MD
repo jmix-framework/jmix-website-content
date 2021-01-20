@@ -1,21 +1,26 @@
 ### Dynamic Attributes
 ### 动态属性
 by Haulmont
+由 Haulmont 开发
 
 ### Latest Version
 ### 最新版本
+0.2.0
 0.2.0
 
 ### Updated
 ### 更新时间
 2 weeks
+两周前
 
 ### Supported Version
 ### 支持版本
 v0.2
+v0.2
 
 ### Licence
 ### 许可
+Apache 2.0
 Apache 2.0
 
 ### Ressources
@@ -63,5 +68,9 @@ To include Dynamic Attributes functionality in your application, add the followi
 
 BUGTRACKER
 问题跟踪
+
 GITHUB
+GITHUB
+
 FORUM
+论坛
