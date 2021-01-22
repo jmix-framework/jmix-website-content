@@ -9,7 +9,7 @@ Meet Jmix - a productive and easy to learn open-source framework for building bu
 
 Jmix comes along with a specialized development environment that boosts the efficiency of a development team by minimizing boilerplate coding. Built-in visual designers facilitate fast learning. 
 
-Jmix 带有专门的开发环境，通过最小化架子代码的编写来提高开发团队的效率。内置的可视化设计器促有助于快速上手。
+Jmix 带有专门的开发环境，通过最小化样板代码的编写来提高开发团队的效率。内置的可视化设计器促有助于快速上手。
 
 Many typical business application features can be added with a single click from the add-ons marketplace. Now you can stay focused on implementing what brings direct value to your business.
 
