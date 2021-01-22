@@ -1,6 +1,6 @@
 Digital transformation pushes modern business to invest in custom software solutions. However, their development is costly and time-consuming.
 
-数字化转型推动了现代业务在定制化软件解决方案方面的投资。但是，软件解决方案的开发成本很高且周期长。
+数字化转型推动了现代业务在定制化软件解决方案方面的投资。但是，软件解决方案的开发通常会成本高昂且周期漫长。
 
 Meet Jmix - a productive and easy to learn open-source framework for building business applications of any scale. It is built on top of mainstream technologies and is trusted by thousands of developers worldwide.
 
@@ -13,7 +13,7 @@ Jmix 带有专门的开发环境，通过最小化架子代码的编写来提高
 
 Many typical business application features can be added with a single click from the add-ons marketplace. Now you can stay focused on implementing what brings direct value to your business.
 
-很多典型的业务应用程序功能可通过扩展市场一键安装。您只需要专注于实现与您的业务直接相关的功能。
+很多典型的业务应用程序功能可通过扩展市场一键安装。而您只需要专注于实现与您的业务直接相关的功能。
 
 
 No worries about vendor lock-in. The framework is licensed under Apache 2.0 - the world's most popular open source license.
