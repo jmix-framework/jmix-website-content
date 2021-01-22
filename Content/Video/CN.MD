@@ -22,5 +22,5 @@ No worries about vendor lock-in. The framework is licensed under Apache 2.0 - th
 
 Check out Jmix right now by following our Quick Start video guide and surprise yourself by how productive you can be!
 
-现在就获取 Jmix，然后跟着我们的快速入门视频来学习，您一定会惊讶于您所能达到的生产效率！ 
+现在就获取 Jmix，然后跟着我们的快速入门视频来学习，您一定会惊讶于自己的生产效率！ 
 
