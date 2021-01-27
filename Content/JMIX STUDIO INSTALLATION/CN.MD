@@ -11,4 +11,4 @@ CLICK THE BUTTON BELOW
 点击下方按钮
 
 If you face any issues during installation, please refer to the documentation
-如果在安装过程遇到问题，可参考文档
+如果您在安装过程中遇到问题，可参考文档
