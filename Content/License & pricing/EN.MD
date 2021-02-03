@@ -30,41 +30,22 @@ You can use Individual pricing if you are developing a project on your own (e.g.
 #### Individual 
 
 3 months
-$68
-per developer
-
 1 year
-$189
-per developer
-
 3 years
-$378
-per developer
+1 year subscription
+3 months subscription
+3 years subscription
+Volume discount
 
 #### Company
-3 months
-$139
-per developer
 
-1 year
-$389
-per developer
+User
 
-3 years
-$778
-per developer
+Period
 
-5-10 developers
-10%
-volume discount
-
-10-20 developers
-15%
-volume discount
-
-20+ developers
-20%
-volume discount
+Individuals can not acquire more than 1 license.
 
 Add-ons are available for 1 year or more
+
+in total
 
