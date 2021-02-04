@@ -62,95 +62,47 @@ You can use Individual pricing if you are developing a project on your own (e.g.
 如果您是独立开发者（自由职业者）并且使用个人资金支付 Studio 费用的话，则可以选择我们提供的更便宜的个人版价格。一个个人账号只能购买一个独立的许可秘钥。
 
 
-#### Individual 
+
+
+#### Individual
 #### 个人
 
 3 months
-$68
-per developer
-
-3个月
-$68
-每个开发人员
-
+3 个月
 
 1 year
-$189
-per developer
-
-1年
-$189
-每个开发人员
+1 年
 
 3 years
-$378
-per developer
+3 年
 
-3年
-$378
-每个开发人员
+1 year subscription
+1 年订阅
+
+3 months subscription
+3 个月订阅
+
+3 years subscription
+3 年订阅
+
+Volume discount
+折扣
 
 #### Company
 #### 公司
 
-3 months
-$139
-per developer
+User 
+用户
 
-3个月
-$139
-每个开发人员
+Period
+时间
 
-1 year
-$389
-per developer
-
-1年
-$389
-每个开发人员
-
-
-3 years
-$778
-per developer
-
-3 年
-$778
-每个开发人员
-
-5-10 developers
-10%
-volume discount
-
-5-10 个开发人员
-10%
-折扣
-
-
-10-20 developers
-15%
-volume discount
-
-10-20 个开发人员
-15%
-折扣
-
-
-20+ developers
-20%
-volume discount
-
-20 个以上开发人员
-20%
-折扣
-
+Individuals can not acquire more than 1 license.
+一个个人账号只能购买一个许可
 
 Add-ons are available for 1 year or more
 扩展不支持少于一年时间的订阅
 
-
-
-
-
-
+in total
+总价
 
