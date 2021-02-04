@@ -88,6 +88,7 @@ You can use Individual pricing if you are developing a project on your own (e.g.
 Volume discount
 折扣
 
+#### Company
 #### 公司
 
 User 
