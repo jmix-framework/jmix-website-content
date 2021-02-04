@@ -97,7 +97,7 @@ Period
 时间
 
 Individuals can not acquire more than 1 license.
-一个个人账户只能购买一个许可
+一个个人账号只能购买一个许可
 
 Add-ons are available for 1 year or more
 扩展不支持少于一年时间的订阅
