@@ -103,6 +103,9 @@ Individuals can not acquire more than 1 license.
 Add-ons are available for 1 year or more
 扩展不支持少于一年时间的订阅
 
+No items are chosen yet.
+没有选择项目
+
 in total
 总价
 
