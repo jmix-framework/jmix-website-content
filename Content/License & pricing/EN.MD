@@ -39,6 +39,7 @@ Volume discount
 
 #### Company
 
+
 User
 
 Period
@@ -46,6 +47,8 @@ Period
 Individuals can not acquire more than 1 license.
 
 Add-ons are available for 1 year or more
+
+No items are chosen yet.
 
 in total
 
