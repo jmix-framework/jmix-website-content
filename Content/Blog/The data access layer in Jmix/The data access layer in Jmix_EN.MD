@@ -16,6 +16,7 @@ Audit of creation
 Audit of modification
 Soft Delete
 
+
 As a result, you will get a JPA class similar to this:
 
 ```Java
