@@ -8,14 +8,14 @@ The add-on provides integration of email messaging into any Jmix-based applicati
 
 You can manipulate email boxes, handle emails, view and retrieve emails, search through them and operate with custom IMAP flags.
 
-IMAP 扩展提供了一个工具，能通过 IMAP 协议将电子邮件消息集成到任何基于 Jmix 的应用程序中。该组件被设计用于通过 Spring 应用程序事件机制处理接收到的邮件。
+IMAP 扩展提供了将电子邮件消息与 Jmix 应用程序进行集成的功能，集成过程基于 IMAP 协议。使用该组件可通过 Spring 应用程序事件机制处理接收到的邮件。
 
-你可以维护收件箱、处理邮件、查看并获取邮件，也可以搜索所有邮件、使用自定义 IMAP 标志。  
+您可以维护收件箱、处理邮件、查看并获取邮件，也可以搜索所有邮件、使用自定义 IMAP 标志。  
 
 
 
 ## Features
-## 功能
+## 特性
 
 - Integration with any IMAP server
 - API methods to connect to IMAP server and operate with emails
@@ -65,7 +65,7 @@ Tree of elements is always available to control the structure. Also, you can edi
 
 只需要拖放元素到画布，然后可以使用丰富的配置选项对页面内的元素进行样式设计。
 
-可以通过元素树来控制模板结构。同时你也可以手工编写代码或从本地文件上传代码。
+可以通过元素树来控制模板结构。同时您也可以手工编写代码或从本地文件上传代码。
 
 
 ## Features
@@ -112,11 +112,11 @@ The add-on allows you to describe business process steps right in the applicatio
 
 Users may interact with running process instances using process forms. For simple cases, you can declare input dialogs right in the modeler. Also, you can use screens based on Jmix backoffice UI to create process forms of any complexity.
 
-BPM 扩展将 BPM 引擎无缝集成到您的项目中，并对其进行了扩展，添加了很多强大的功能。
+BPM 扩展将 BPM 引擎无缝集成到您的项目中，同时对其进行了扩展，添加了多个强大的功能。
 
-通过这个扩展可以直接在应用程序内使用集成的 BPMN2.0 建模器对业务处理流程的各个步骤进行描述。作为应用程序的一部分，其提供了与运行时应用程序和可视化流程定制的无缝集成。比如，需要指定在特定流程步骤使用的服务方法，您可以直接从一个下拉列表选取 Spring bean 名称和方法名。
+通过这个扩展可以直接在应用程序内使用集成的 BPMN2.0 建模器对业务处理流程的各个步骤进行描述。作为应用程序的一部分，其提供了与运行时应用程序和可视化流程定制的无缝集成。比如，需要指定在特定流程步骤使用的服务方法时，您可以直接从一个下拉列表选取 Spring bean 名称和方法名。
 
-用户可以使用流程表单与运行的流程实例做交互。对于简单的场景，您可以直接在建模器中声明输入对话框。此外，你也可以使用基于 CUBA 通用 UI 的界面来创建任何复杂度的流程表单。
+用户可以使用流程表单与运行中的流程实例做交互。对于简单的场景，您可以直接在建模器中声明简单的输入对话框。此外，您也可以使用基于 Jmix 通用 UI 的界面来创建任何复杂度的流程表单。
 
 
 ## Features
@@ -136,7 +136,7 @@ BPM 扩展将 BPM 引擎无缝集成到您的项目中，并对其进行了扩�
   e) analyze processes execution history, etc.
 - API for working with business processes from the code.
 
-- 其中内嵌了轻量级的 [Flowable](https://flowable.org/) 运行时引擎。您可以直接使用 Flowable API，或者也可以使用由 BPM 扩展提供的 API 层
+- 内嵌了轻量级的 [Flowable](https://flowable.org/) 运行时引擎。您可以直接使用 Flowable API，或者也可以使用由 BPM 扩展提供的 API 层
 - 集成了基于 [bpmn-js](https://bpmn.io/) 框架的 BPMN2.0 可视化设计器
 - 集成了为复杂决策逻辑设计的 DMN1.1 决策表设计器
 - 两种类型的流程表单：
@@ -156,7 +156,7 @@ BPM 扩展将 BPM 引擎无缝集成到您的项目中，并对其进行了扩�
 
 To include the add-on into your application follow the steps described in the documentation:  [https://docs.jmix.io/jmix/0.x/bpm/index.html#_installation](https://docs.jmix.io/jmix/0.x/bpm/index.html#_installation)
 
-根据以下文档将此扩展集成到你的应用程序：[https://docs.jmix.io/jmix/0.x/bpm/index.html#_installation](https://docs.jmix.io/jmix/0.x/bpm/index.html#_installation)
+根据以下文档将此扩展集成到您的应用程序：[https://docs.jmix.io/jmix/0.x/bpm/index.html#_installation](https://docs.jmix.io/jmix/0.x/bpm/index.html#_installation)
 
 ## Links
 ## 链接
@@ -255,7 +255,7 @@ dependencies {
     // ...
 ```
 
-## Links
+## 链接
 
 GitHub: [https://github.com/Haulmont/jmix-ui](https://github.com/Haulmont/jmix-ui/)
 
