@@ -61,7 +61,7 @@ All you need is to drag an element into the canvas. The wide range of options en
 
 Tree of elements is always available to control the structure. Also, you can edit HTML code manually or upload code from the file.
 
-此扩展提供了基于 GrapesJS JavaScript 库的可视化 HTML 编辑器，使用该组件不需要任何编码基础就可以构建 HTML模板。
+此扩展提供了基于 [GrapesJS](https://grapesjs.com/) JavaScript 库的可视化 HTML 编辑器，使用该组件不需要任何编码基础就可以构建 HTML模板。
 
 只需要拖放元素到画布，然后可以使用丰富的配置选项对页面内的元素进行样式设计。
 
