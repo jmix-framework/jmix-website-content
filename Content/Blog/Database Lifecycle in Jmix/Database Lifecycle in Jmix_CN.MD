@@ -23,7 +23,7 @@ Liquibase 的官方定义是：“Liquibase 是一个开源数据库架构变更
 
 核心概念是 "变更集（changeset）" - Liquibase 执行数据库更新的单位，它将各种数据库变更类型分组组织在一起，常用的数据库变更类型有创建表、移除列、更新约束等。
 
-变更集使用 DB 无关的脚本存储在 XML、YAML 或 JSON 格式的文件中，即变更记录（changelogs）。你也可以编写特定 DB 的变更记录，比如为  PostgreSQL 创建包含 JSONB 类型列的表，而其它数据库中这个列的类型创建为 BLOB 。 
+变更集使用 DB 无关的脚本存储在 XML、YAML 或 JSON 格式的文件中，即变更记录（changelogs）。你也可以编写特定于 DB 的变更记录，比如为  PostgreSQL 创建包含 JSONB 类型列的表，而其它数据库中这个列的类型创建为 BLOB 。 
 
 通常，在应用程序代码库中会有一个 “master” 变更记录， 在 “master” 变更记录中包含了引入其它变更记录的指令。每次新的变更记录被创建后会，都会被引入到  “master” 变更记录。
 
