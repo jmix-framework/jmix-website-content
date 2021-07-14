@@ -1,71 +1,132 @@
 ## Database Lifecycle in Jmix
 
-### Introduction
+In Jmix, the JPA data model, hence database is a cornerstone of the application.
 
-Jmix is a framework for data-centric application creation. Hence, data model and data access layer play one of the major roles in the framework. We use relational databases and JPA for data access in Jmix.
+## Introduction
 
-JPA abstracts us from DB-specific queries and we work with classes and objects in the application. But you need to be sure that your database schema and object model are in synchronized state. Otherwise, the application might not even start or worse - throw unexpected exceptions in runtime. 
+In Jmix, the JPA data model, hence database is a cornerstone of the application.
 
-So what do we do in Jmix to avoid such issues and simplify a developer’s life?
+In the case of software development, the principle “if it works, don’t touch it” does not always work. Software changes are inevitable, database migrations too. And if database update goes wrong, you can lose data - one of the most valuable things for the business.
 
-### Reasoning about the data model
+In our framework we use JPA over relational databases. Nowadays RDBMS are widely used in enterprise applications. Two key things that provide this success are: data consistency (it is very important in many business areas) and advanced ORM frameworks like Hibernate or EclipseLink that simplify application development. 
 
-When we start a project (with any technology) that uses an ORM framework (JPA, iBatis, or any other), we should decide what goes first: a database schema definition or an object model? In Jmix, we recommend starting with the object model definition. The rationale behind this recommendation is simple: we should define a data model where it is used. Since all business logic is processed in the application, defining the object model on the app side looks reasonable. 
+Relational DB update is a complex process, we need to keep data consistent after migration is over and sometimes it is not as easy as it seems.
 
-An application is not a static thing, business requirements change over time, so the application’s data model changes. It means that we need to change the underlying data storage. 
+In the [previous article](https://www.jmix.io/blog/database-lifecycle-in-jmix/) we’ve made an overview of the database migration process in Jmix. In this article we’ll have a look at the DB migration challenges. 
 
-The times when developers wrote and updated SQL for their applications are long gone. Nowadays we usually use dedicated database versioning tools. Liquibase and Flyway are the most common ones. In Jmix, we use Liquibase for the DB versioning support.
+## Migration Corner Cases 
 
-### What is Liquibase?
+In the “[Refactoring Databases: Evolutionary Database Design](https://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515/)” book there are more than 20 cases for the database changes. Some of them can be quite dangerous and cause data loss. 
 
-The official definition of Liquibase is: “Liquibase is an open-source database schema change management solution which enables you to manage revisions of your database changes”.
+Of course, you can easily identify refactoring actions that directly delete something. In Jmix we highlight changes that contain such operations as drop table or drop column with red colour in the DB migration scripts.
 
-The key concept is the “changeset” - a single database update like table creation, column removal or constraint update.
+Let’s have a look at the database update cases that look safe but can cause issues during object model refactoring.
 
-Changesets are stored in DB-agnostic scripts in XML, YAML or JSON format - changelogs. You can also write DB-specific changelogs like creating a table with a JSONB column for PostgreSQL and BLOB for other databases.
+In Jmix, we use Liquibase for DB versioning, so we will use this tool as the reference further in the article. 
 
-Usually, in the application codebase there is one “master” changelog that contains directives to include other changelogs. And each time a new changelog is created, it is included into master. 
+## Drop Table/Column
 
-Liquibase provides a robust framework for running database update scripts. This tool even can create changelogs based on the existing database or comparing two database schemas. We can even generate changelogs for the entities model, if Hibernate is used, but a separate maven plugin is needed. 
+Even though this is a direct action that causes data loss, you can prevent harm by following the simple advice: “do not drop, rename”.
 
-### Jmix Scripts Generation
+In the “Refactoring Databases: Evolutionary Database Design” book authors almost always use “Transition period” - time interval when DB objects still exist, but not used. It gives us some time to fix issues if something goes wrong with migration. For example, here is the "[drop column](https://databaserefactoring.com/RemoveColumn.html)" case representation:
 
-In Jmix, we generate Liquibase changelogs by comparing the JPA data model with the database schema. The development cycle basically consists of the following steps:
+ ![text]({{strapiUrl}}/uploads/blog_img_ca57c30139.png)
 
-1.	Implement object data model
-2.	Check if all existing changelogs are applied to the DB
-3.	Compare object data model against the DB schema
-4.	Generate a new Liquibase changelog that updates the DB schema according to object model changes
+## Rename Table
 
-Looks easy, right? The framework does all the heavy lifting for us. But you need to be careful, because not all changes are harmless. Adding a field to an entity (hence a column to a table) is simple. But removing a field may cause data loss. 
+Class rename is a common operation, but in case of data model classes it usually causes DB table rename, especially if we haven’t specified the table name in the `@Table` annotation.
 
-Jmix Studio groups database updates and shows unsafe changesets in red color, and a developer can remove them from the changelog if needed.
+Liquibase will create the [rename table](https://docs.liquibase.com/change-types/community/rename-table.html) statement for the operation. It is usually harmless, though it might lock the whole table. Be careful with it when applying the change on the prod server to avoid long downtime due to the table lock.
 
- 
+The potential issue when we renaming a table is not only DB lock, but SQL/JPQL queries specified in the app code in string format. We need to carefully review all such cases, because string references are harder to track than code ones, even with an IDE.
 
-After generation, the changelog becomes a part of the source code. In Jmix, we store changes, grouping them by date. By default, changelogs are stored in the following folder structure:
- 
-Every new changelog will be placed in the corresponding folder and included in the main `changelog.xml` file. 
+Such code review allows us to prevent the most unpleasant errors - runtime exceptions. 
 
-Every time a Jmix application starts, it runs the main changelog using the Spring Boot Liquibase integration bean.
+## Rename Column
 
-### Database Migration Process
+Renaming a class attribute is a simple refactoring operation if we use a modern IDE. This operation may cause a renaming operation for the corresponding DB column if we haven’t specified the column’s name explicitly.
 
-During the development phase we can apply Liquibase changelogs to the dev database using Jmix Studio. Just right-click on the data source in the navigator and select “Update Database”
+As in the case of table rename, if we change a class attribute name, thus table column name, we need to review all related queries (SQL or JPQL) to be on the safe side. 
 
- 
+For the attribute rename operation, the Liquibase tool will generate the “rename column” statement. Direct rename operation is supported by most databases ([see Liquibase reference](https://docs.liquibase.com/change-types/community/rename-column.html)). 
 
-In case of the prod deployment, we sometimes don’t have access to the prod database. In this case, DevOps or DBA has two options:
+In Jmix we still generate “drop column + add column” Liquibase changeset. After it is generated, we need to update it by using the following sequence of operations:
 
-1.	Apply changelogs automatically on the application startup
-2.	Apply manually and then redeploy and restart the application
+- Add a temporary column
+- Copy data from the column that should be renamed to the temporary one
+- Drop column
+- Create a new column with a new name
+- Copy data from the temporary column to the new one
+- Drop the temporary column
 
-As it was mentioned above, in a Jmix application, the first option is enabled. If we don’t want to allow our application to update the production database automatically, we need to set the `jmix.liquibase.enabled` property value to `false` in the `application.properties` file.
+This will help us to avoid data loss on column rename.
 
-Jmix keeps changelogs in the same .JAR with the application code. Though Liquibase supports running changelogs packaged into .WAR or .EAR files, it does not support Spring Boot .JAR layout.  If you want to run migration separately, you need to extract and copy changelogs to a separate location manually and run them using Liquibase CLI. 
+## Replace One-To-Many With Associative Tables
 
-### Conclusion
+Let’s have a look at the example - we need to store information about cars and their owners. Here is the initial model:
 
-Database migration is a challenging task. Fortunately, there are tools that simplify it for a developer. Liquibase provides changelogs execution, validation, checks integrity, etc. 
+![text]({{strapiUrl}}/uploads/blog_img_2_6b6243fe7f.png)
 
-With Jmix, you can generate changelogs according to JPA model changes, review them and update if needed. Combining Jmix with Liquibase covers the full database schema development lifecycle starting from JPA entities creation to schema update. 
+After some time we realised that we need to store the history of car ownership. When it comes to storing a history, it usually ends up with transforming an association cardinality. And our model transforms into this:
+
+![text]({{strapiUrl}}/uploads/blog_img_3_1f173724a3.png)
+
+With Jmix Studio, changing cardinality is as simple as a couple of clicks in the entity editor. Just select an attribute on one o But on the DB level, changes are more serious. Jmix Studio generates the following change sets:
+
+- Create association table
+- Add two foreign keys to both entities
+
+The Studio does not remove any foreign key columns from existing tables, we’ll need to do it manually. In our case, the column `person_id` will stay in the `Car` table. 
+
+But the more important thing is that Jmix does not migrate the existing information about links between entities. And if we need to keep this information, we need to migrate the data in the update scripts. 
+
+For the case of replacing many-to-one with associative table, the final changeset should contain the following steps:
+
+- Create association table
+- Add two foreign keys to both entities
+- Insert data from both tables into associative table
+- Drop redundant foreign key in one of the tables
+
+This will allow you to keep history information about links between entities in the new table. 
+
+## Change datatype
+
+We usually do not change class attribute datatype often, in most cases we know the datatype at the business domain modelling stage. But sometimes we have to do it. 
+
+For example, we have a nice delivery tracking application developed for the US market. In the US, ZIP codes can be represented as nine digits (five+hyphen+four). The system works great and it was decided to start selling it for the UK customers. It turns out that in the UK ZIP code has a format like this: “SW1 4HY”. It means that we cannot store ZIP code as a number and should store it as a string.
+
+Changing class attribute datatype is not a big deal, IDE and compiler will catch almost all issues at early stages. But for the database migration is usually a challenge.
+
+In general, we cannot convert a datatype to any other datatype. In Jmix we generate two operators: “drop column” and “add column”. If you apply those directly, your data will be lost. To avoid this, follow the steps described in the “rename column” session.
+
+## Make Column Non Nullable
+
+This change should not cause data loss, but may fail the whole DB update process if the column contains null values. In this case, we need to update the column and add default values. 
+
+Jmix generates only constraint creation Liquibase changeset. You need to change the generated script by specifying default value attribute `defaultNullValue` for null values in the column.
+
+Another option - do not check the existing data by setting the `validate` attribute in the changeset. Before using this we should check if our particular RDBMS supports this feature. For more details can be found in the [Liquibase documentation](https://docs.liquibase.com/change-types/community/add-not-null-constraint.html ) for this statement. 
+
+## Add Unique Constraint
+
+By adding constraints to a table (whether it is not null or unique key or something else) we introduce a potential failure for the database update process. The problem is that sometimes we just cannot check all possible data sets in all databases that will be updated by our changeset. 
+
+If we decide to add a unique constraint to a table, we can do it in the Jmix Studio by setting the corresponding attribute property or by creating a unique index in the visual editor.
+
+Jmix will generate a base `addUniqueConstraint` Liquibase changeset. If we do not have information about the database that should be updated, we can add the `validate` attribute in the changeset.
+
+For some RDBMSes, if we set `validate` to `true`, the unique constraint will be applied to newly created records only, the old data will not be validated. If we set it to `false`, the changeset will fail if there is non-unique data.
+
+As an example, Oracle supports this mode (with [some tricks](https://stackoverflow.com/a/42903246/3136181) though), but PostgreSQL doesn’t. We need to check the docs for our RDBMS to use this option. 
+
+If the DB does not support deferred constraint validation, we’ll have to update the data before applying the index. 
+
+First option - a manual process when we select all non-unique records and update them one-by-one. We’ll need to provide a clean migration instruction for our application that must be followed by DB admins.
+
+If we want to automate the update a bit, we can assign a simple SQL update that will add a unique suffix to existing data in the column(s) that is going to be used in the unique constraint. This update can be added to the liquibase changeset. This option is simpler, but altering data may not be a great idea in some cases.
+
+So, adding a unique constraint is a bit more complex than just issuing one `ALTER TABLE` statement, but it may be resolved with some additional actions stated above. 
+
+## Conclusion
+
+Database Migration is a complex process. Even with the modern tools and frameworks like Liquibase and Jmix you may bump into cases that may cause data loss or application runtime errors. Hope that this article will help you to avoid those pitfalls. 
