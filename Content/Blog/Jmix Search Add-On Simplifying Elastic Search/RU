@@ -4,17 +4,17 @@
 
 ## Вступление 
 
-Удобный поиск - всегда нужная и полезная функция в любом приложении, работающем с данными. В CUBA было дополнение “FTS”, основанное на [Lucene](https://lucene.apache.org/). Для Jmix,= мы переработали поисковый движок. Теперь в качестве поискового движка мы используем [Elasticsearch](https://www.elastic.co/). 
+Удобный поиск - всегда нужная и полезная функция в любом приложении, работающем с данными. В CUBA было дополнение “FTS”, основанное на [Lucene](https://lucene.apache.org/). Для Jmix мы переработали поисковый движок. Теперь в качестве поискового движка мы используем [Elasticsearch](https://www.elastic.co/). 
 
-В основе Elasticsearch лежит Lucene, так что он обладает теми же особенностями - docs и indexes. Так как Jmix is a framework for data-centric applications, we need to create documents and build indexes based on data stored in a relational database.
+В основе Elasticsearch лежит Lucene, так что он обладает теми же особенностями - docs и indexes. Так как Jmix - это фреймворк для data-centric приложений, нужно создать документы и построить индексы на основе данных в реляционной БД.
  
-In this article we will discuss approaches for Elasticsearch usage in Spring Boot and ideas that were implemented in Spring Boot-based Jmix framework. 
+В этой статье мы обсудим подходы к применению Elasticsearch в Spring Boot и расскажем об идеях, которые реализовали в фреймворке Jmix на основе Spring Boot. 
 
-## Spring Boot Solution
+## Решение Spring Boot
 
-Spring Boot supports Elasticsearch, there is a [separate project](https://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html/) for it. 
+Spring Boot поддерживает Elasticsearch, для него существует [отдельный проект](https://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html/). 
 
-To add Elasticsearch to our Spring Boot application, we need to define “Documents” as Java classes similar to JPA Entities. Let’s have a look at the example from the Spring documentation:
+Чтобы добавить Elasticsearch в приложение на Spring Boot, нам нужно определить “Documents” как Java-классы, аналогично сущностям JPA. Давайте взглянем на пример из документации Spring :
 
 ```java
 @Document(indexName="books")
@@ -35,7 +35,7 @@ class Book {
 }
 ```  
 
-Here we define an indexed document, its fields and index name. In order to work with indexes, save documents and perform search, we need to create a Spring Data repository similar to this:
+Здесь мы определяем индексированный документ, его поля и название индекса. Чтобы работать с индексами, сохранять документы и осуществлять поиск, нужно создать Spring Data репозиторий, как в примере ниже: 
 
 ```java
 interface BookRepository extends Repository<Book, String> {
@@ -43,20 +43,20 @@ interface BookRepository extends Repository<Book, String> {
 }
 ``` 
 
-The Spring Boot API for Elasticsearch is slick and familiar for developers, but if you want to perform a search in the database, things become a bit more interesting. If we want to do that, we need to implement the following code.
+Spring Boot API для Elasticsearch - классный и хорошо знакомый разработчикам инструмент, но если вы хотите настроить поиск по базе данных, все выглядит несколько интереснее. Чтобы сделать это, требуется реализовать вот такой код.
 
-For the index creation:
-1. Define documents with ID field and table name to link them to data
-2. When data is stored or updated, create a document, by copying changed data from the updated data rows
-3. Send this document to the Elasticsearch
+Для создания индекса:
+1. Определите в документах поле ID и название таблицы, чтобы связать их с данными 
+2. Когда дата сохраняется или обновляется, создавайте документ через копирование данных из тех рядов, которые обновились 
+3. Отправляйте этот документ в Elasticsearch
 
-For the search:
-1. Find a document according to search query
-2. Find a corresponding entity by the table name and ID
+Для реализации поиска:
+1. Найдите документ согласно поисковому запросу 
+2. Найдите соответствующую сущность по названию таблицы и ID 
 
-This is not hard work, but it still requires some manual coding. So, is there a way to simplify it a bit? 
+Это несложная работа, но тем не менее, она требует написания кода вручную. Так есть ли способ немного упростить процесс?
 
-## Jmix Solution
+## Решение Jmix
 
 In Jmix, we provide a simple way for [configuring Elasticsearch indexing](https://docs.jmix.io/jmix/1.0/search/create_index_definitions.html). It will look familiar for developers who worked with BPM or Security in CUBA, and this approach won’t look strange for the experienced Spring Boot developers. Let’s have a look at the index configuration for the Book JPA entity.
 
@@ -128,7 +128,7 @@ In addition to this, we can add full-text search [capabilities to the generic fi
 
 ![condition_editor.png]({{strapiUrl}}/uploads/condition_editor_dbe15d92d1.png)
 
-## Conclusion
+## Заключение
 
 In Jmix, we keep the approach used in the previous versions: take a battle-proven framework, build an API over it and simplify usage as much as it needs to be and we don't hide implementation from a developer, from the other side. 
 
