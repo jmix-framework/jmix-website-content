@@ -16,7 +16,7 @@ Jmix 中使用了 JPA 数据模型，因为数据库是应用程序的基石。
 
 ## 数据库迁移的各种极端情况
 
-在 “[Refactoring Databases: Evolutionary Database Design](https://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515/)” 这本书中列举了 20 种数据库变更的案例。其中的一些非常危险，可能导致丢失数据。
+在 “ [Refactoring Databases: Evolutionary Database Design](https://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515/) ” 这本书中列举了 20 种数据库变更的案例。其中的一些非常危险，可能导致丢失数据。
 
 当然，你可以识别出危险的重构操作并直接将其删除。在 Jmix 中我们使用红色高亮显示出包含删表、删列等危险操作的数据库迁移脚本。
 
@@ -123,11 +123,11 @@ Jmix 将生成一个基本的 `addUniqueConstraint` Liquibase 变更集。如果
 
 对于一些 RDBMS ，如果我们将 `validate` 设置为　`true`， 唯一约束将只应用到新创建的记录，旧数据不会被验证。如果我们将 `validate` 设置为　`false` ，如果存丰非唯一数据，更新将失败。
 
-比如，使用([一些技巧](https://stackoverflow.com/a/42903246/3136181) though) 可以使 Oracle 支持此模式。但是 PostgreSQL 不支持。我们需要参考数据库文档来使用这个选项。
+比如，使用 [一些技巧](https://stackoverflow.com/a/42903246/3136181) 可以使 Oracle 支持此模式。但是 PostgreSQL 不支持。我们需要参考数据库文档来使用这个选项。
 
 如果 DB 不支持延迟的约束验证，我们在应用索引前就必须更新数据。
 
-第一个选项　－ 我们需要找到所有非唯一记录，然后逐个手工更新。我们需要为应用提供一个清晰的数据迁移说明，DB 管理员应该根据这个说明来更新数据。
+第一个选项 － 我们需要找到所有非唯一记录，然后逐个手工更新。我们需要为应用提供一个清晰的数据迁移说明，DB 管理员应该根据这个说明来更新数据。
 
 如果我们想自动化一些，可以创建一个简单的 SQL 更新，在这个更新中为现有数据的唯一约束列添加一个唯一后缀。这个更新可以添加到 liquibase 变更集中。这个选项更简单，但是在一些场景中这并是一个好方法。
 
