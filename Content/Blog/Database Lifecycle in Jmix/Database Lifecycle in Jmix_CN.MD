@@ -77,7 +77,7 @@ Liquibase 将会为此操作创建 [rename table](https://docs.liquibase.com/cha
 
 ![text]({{strapiUrl}}/uploads/blog_img_3_1f173724a3.png)
 
-使用 Jmix Studio，改变基数(cardinality) 比较容易，只需要在在实体设计中点几次鼠标。Just select an attribute on one o But on the DB level, changes are more serious. ???   Jmix Studio 生成下列变更集(changeset)：
+使用 Jmix Studio，改变基数(cardinality) 比较容易，只需要在实体设计中点几次鼠标，但是在数据库级别会有更多更改。Jmix Studio 生成下列变更集(changeset)：
 -  创建关联表
 -  生成两个实体的外键
 
