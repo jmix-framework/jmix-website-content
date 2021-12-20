@@ -1,0 +1,12 @@
+# Digitize organization processes with seamlessly integrated BPM capabilities
+
+Jmix complements its powerful general-purpose application development capabilities with core business process automation features.
+
+## Design
+Shape your processes using visual BPMN and DMN designers, seamlessly integrated with forms, users, data and business logic. Using simple drag and drop features, you can set the flow of process tasks and create custom user forms to handle process data.
+
+## Run
+Built-in industry-standard processes execution engine performs easy-lifting of both simple workflows and business processes to achieve company business goals. Integrated business capabilities, including business calendar and user notifications, simplify task management and keep process assignees connected.
+
+## Inspect
+Jmix developer has full access to the source code and can easily debug processes in a convenient Java IDE – IntelliJ IDEA. With administration tools, you can monitor the running process instances, identify and address data entry mistakes, manage process model definitions.
