@@ -1,5 +1,5 @@
 summary: 
-Jmix 1.1 已经发布，我们在这个版本中引入了几项重要特性：CBUA 项目迁移、Kotlin 支持和 Java 17 支持。    
+Jmix 1.1 已经发布，我们在这个版本中引入了几项重要特性：CUBA 项目迁移、Kotlin 支持和 Java 17 支持。    
 
 # Jmix 1.1 发布!
 
