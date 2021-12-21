@@ -46,7 +46,7 @@ Studio 会自动修改项目结构以满足 Jmix 的要求。大部分的代码�
 
 ## Java 17 支持
 
-Jmix 1.1 现在允许使用 Java 17。框架运行时已在 JDK 17 上进行了完全测试。JDK 17 是一个 LTS 版本，会有 [两年时间的免费支持](https://mreinhold.org/blog/frward-even-faster) ，同时不同 JDK 供应商会提供更长时间的付费支持，比如 Oracle 会提供至少八年时间的付费支持。这意味着 Jmix 应用程序在这段时间有会有稳定的运行平台，并且 JDK 供应商会为平台提供合适的支持级别。
+Jmix 1.1 现在允许使用 Java 17。框架运行时已在 JDK 17 上进行了完全测试。JDK 17 是一个 LTS 版本，会有 [两年时间的免费支持](https://mreinhold.org/blog/frward-even-faster) ，同时不同 JDK 供应商会提供更长时间的付费支持，比如 Oracle 会提供至少八年时间的付费支持。这意味着 Jmix 应用程序在这段时间会有稳定的运行平台，并且 JDK 供应商会为平台提供合适的支持级别。
 此外，Java 17 还提供了很多改进， 这些改进会使应用程序运行更快（得益于编译器优化和更好的垃圾回收器），使开发人员编写出更好更安全的代码（封闭类、Record 类、switch 表达式等等）。 
 
 如果要在项目中使用 Java 17 ，只需要从 `build.gradle` 中删除 `sourceCompatibility` 行，并且确保使用 Gradle 7.2 及以上版本作为构建工具。你可以在 `gradle-wrapper.properties` 文件中修改 Gradle 版本。
@@ -115,7 +115,7 @@ ResponsiveGridLayout 是一个容器，其中的组件会被布局在一个栅�
 <br>
 <img src='{{strapiUrl}}/uploads/Dizajn_bez_nazvaniya_d57348fd8f.jpg'>
                
-*BPM 设计器* 现在允许开发人员直接在 Studio 中创建  BPM 流程图 (需安装 BPM 扩展)。这可以简化 BPM 流程部署，你不需要从开发环境上传然后导入到产品。 现在 BPM  流程描述和相关的代码(服务、用户提供者等) 存储在了代码库中，所以不会有因流程定义与代码分离导致的类似新流程部署到旧应用程序的问题。
+*BPM 设计器* 现在允许开发人员直接在 Studio 中创建  BPM 流程图 (需安装 BPM 扩展)。这可以简化 BPM 流程部署，你不需要从开发环境上传然后导入到产品。 现在 BPM  流程描述和相关的代码(服务、用户提供者等) 存储在了代码库中，所以不会出现因流程定义与代码分离导致的类似新流程部署到旧应用程序的问题。
 <br>
 <img src='{{strapiUrl}}/uploads/Screenshot_2021_10_30_at_20_07_20_88aa300fe9.png'>
  
