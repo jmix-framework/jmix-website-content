@@ -8,7 +8,7 @@ Romanian translation of the framework.
 ## 介绍
 This add-on provides the Romanian translation of the framework messages and the localized set of data formats.
 
-该扩展提供了框架内文本的罗马尼亚语翻译以及数据格式的中文本地化支持。
+该扩展提供了框架内文本的罗马尼亚语翻译以及本地化数据格式设置。
 
 ## Usage
 ## 用法
