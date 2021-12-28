@@ -12,7 +12,7 @@ ES 是基于 Lucene 的，而且使用了相同的概念 - 文档和索引。Jmi
 
 ## Spring Boot 方案
 
-Spring Boot 有个[单独的项目](https://docs.spring.io/spring-data/ES/docs/current/reference/html/) 来支持 ES。
+Spring Boot 有个[单独的项目](https://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html/) 来支持 ES。
 
 为了在 Spring Boot 应用程序中使用 ES，与 JPA 实体类似，我们需要用 Java 类来定义“文档”。下面是 Spring 手册中的一个例子：
 
