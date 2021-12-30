@@ -8,18 +8,18 @@
 
 其中最重要的工作当然是发布 Jmix 的稳定版。我们在六月份发布了 [1.0 版本](https://www.jmix.cn/blog/jmix-1-0-is-released/)，但老实说，直到最近 [1.1 版本的发布](https://www.jmix.cn/blog/jmix-1-1-is-released/)，这项工作才算正式完成。在 1.1 中，我们提升了平台的可用性和稳定性，并且大多由 Haulmont 开发 的 CUBA 插件也迁移到了 Jmix。
 
-我们清楚的知道，企业级项目一般都会存续很长时间，所以我们最重要的工作就是加快完成项目迁移至框架最新版的功能。在 Jmix 1.1 中，我们支持了从 CUBA 平台迁移至 Jmix，这项工作由框架中一个[特定的兼容模块和 Studio](https://docs.jmix.io/jmix/cuba/index.html) 完成。
+我们清楚的知道，企业级项目一般都会存续很长时间，所以我们最重要的工作就是尽快完成项目迁移至最新版框架的功能。在 Jmix 1.1 中，我们支持了从 CUBA 平台迁移至 Jmix，这项工作由框架中一个[特定的兼容模块和 Studio](https://docs.jmix.io/jmix/cuba/index.html) 完成。
  
-另外，今年还诞生了一个新产品，同样也是 IntelliJ IDEA 插件 - [JPA Buddy](https://plugins.jetbrains.com/plugin/15075-jpa-buddy)。一句话总结它的功能就是，我们将 Jmix 中处理数据模型的能力用在了使用 JPA 的通用 Java 或 Kotlin 项目中。新产品的成功出乎所有人的意料，一年内的独立下载量超过 50 万次！这证明我们以轻量级、非倾入式的方式提供开发工具的想法能被开发者社区接受。欢迎阅读 JPA Buddy 的[回顾文章](https://www.jpa-buddy.com/blog/the-first-annual-recap-from-jpa-buddy/)进一步了解。
+另外，今年还诞生了一个新产品，同样也是 IntelliJ IDEA 插件 - [JPA Buddy](https://plugins.jetbrains.com/plugin/15075-jpa-buddy)。一句话总结它的功能就是，我们将 Jmix 中处理数据模型的能力用在了使用 JPA 的普通 Java/Kotlin 项目中。新产品的成功出乎所有人的意料，一年内的独立下载量超过 50 万次！这证明我们以轻量级、非侵入式的方式提供开发工具的想法能被开发者社区接受。欢迎阅读 JPA Buddy 的[回顾文章](https://www.jpa-buddy.com/blog/the-first-annual-recap-from-jpa-buddy/)进一步了解。
 
 ![logo jpa buddy]({{strapiUrl}}/uploads/Logo_JPA_Buddy_1b97eec30f.png)
 
 也许您会觉得 JPA Buddy 与 Jmix 社区关系不大，但事实上它为 Jmix 带来了正反馈。这样一款小巧且受欢迎的工具有着非常快速的响应和发布周期，以至于我们能迅速打磨这款产品，为开发者提供了完美的体验。于是，我们将许多 JPA Buddy 的成功设计和功能复制到了 Jmix！比如，我们就用这个方法将自定义的数据库迁移脚本换成了行业标准 Liquibase。
 
-另一项我们今年启动的工作是 CloudControl，这是一个为 Jmix 扩展 DevOps 和云部署能力的项目。这个项目完成后，Jmix 将能支持应用程序的完整软件开发生命周期。CloudControl 将支持两种场景：
+另一项我们今年启动的工作是 CloudControl，这是一个为 Jmix 增加 DevOps 和云部署能力的项目。这个项目完成后，Jmix 将能支持应用程序的完整软件开发生命周期。CloudControl 将支持两种场景：
 
-- 一键部署，从 Studio 部署至公有云，比如 AWS，这个方式是原型系统、个人项目或者 Demo 系统的理想部署方式。
-- 一个完整的基础架构和团队合作的工作环境，用来管理和部署项目，使用者不需要有很深的 DevOps 知识。
+- 一键部署，从 Studio 部署至公有云环境，比如 AWS，这个方式是原型系统、个人项目或者 Demo 系统的理想部署方式。
+- 提供一个完整的基础架构和团队合作的工作环境，用来管理和部署项目，使用者不需要有很深的 DevOps 知识。
 
 第二点我再详细解释下。CloudControl 的设计遵循我们的口号 “不重复造轮子”，背后其实用的是 GitLab，因此，您可以用 CloudControl 提供的配置好的 GitLab 实例或者连接至您已有的实例。这样可以直接使用问题追踪、CI/CD 引擎、Git 或者二进制仓库等功能。除此之外，CloudControl 还增加了以下功能：
 
@@ -30,7 +30,7 @@
 
 所以本质上，CloudControl 是在开发工具、DevOps 基础设施、部署环境之间建起的一道桥梁。
 
-一直以来我们还有一个关键的工作方向，那就是新的前端技术。最初，我们计划将新的 React 前端构建在 GraphQL API 之上作为 Vaadin 的完全对等替换方案。然而，随着研发的进展，我们意识到同时支持两个对等的客户端会把 Jmix 搞得一团糟，比如需要维护成倍的文档，不同的 API 等。此外，web 开发者对 Jmix 的通用 API 方案持有保留意见，因为他们习惯于使用特定的 API 端点。
+一直以来我们还有一个关键的工作方向，那就是新的前端技术。最初，我们计划将新的 React 前端构建在 GraphQL API 之上作为 Vaadin 的完全对等替换方案。然而，随着研发工作的展开，我们意识到同时支持两个对等的客户端会把 Jmix 搞得一团糟，比如需要维护成倍的文档，不同的 API 等。此外，web 开发者对 Jmix 的通用 API 方案持有保留意见，因为他们习惯于使用特定的 API 端点。
 
 上面这些因素使得我们重新思考并改变了策略，Jmix 将继续使用 Vaadin 作为主要客户端，专注于提供无缝的纯 Java/Kotlin 全栈开发体验。同时，Jmix Studio 自动生成自定义的 REST/GraphQL API 端点（包括通用 API），以方便其它前端使用 Jmix 作为后端程序。有了这个决定之后，我们开始着手将 Vaadin 升级至最新的 23 LTS 版本。
 
@@ -59,7 +59,7 @@
 - 三季度：CloudControl 以及新版 Vaadin 23 UI 客户端稳定版
 
  
-上面提过，我们仍然在努力让 React Buddy 能与 Jmix 结合，以提高 Jmix 的前端开发速度。我确信我们今年能发布一版。Flutter 工作可能需要暂停一阵，我们要集中精力先完成其它的项目。
+上面提过，我们仍然在努力让 React Buddy 能与 Jmix 结合，以提高 Jmix 的前端开发速度。我确信我们今年能发布一版。Flutter 工作可能需要暂停一阵，我们需要集中精力先完成其它的项目。
 
 当然，我们今年也计划发布很多改进和一些新插件。我们还有另外一个大的研发方向，目前暂时保密，来年晚些时候会公布。敬请保持关注！
 
