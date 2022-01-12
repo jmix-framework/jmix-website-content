@@ -2,56 +2,55 @@
 
 ## Всесторонний подход к модернизации легаси-приложений
 
-Легаси-приложения зачастую являются основой ведения бизнеса даже в современном мире. Владельцы и руководители заинтересованы в том, чтобы проводить обновления и не уступать конкурентам, но бизнес-логика бывает настолько сложной, что ей оправдывают устаревшие приложения. Технические руководители считают, что модернизация без приостановки бизнеса —— слишком сложная задача.
+Легаси-приложения зачастую являются основой ведения бизнеса даже в современном мире. Владельцы и руководители заинтересованы в том, чтобы проводить обновления и не уступать конкурентам, но бизнес-логика бывает настолько сложной, что ей оправдывают устаревшие приложения. Технические руководители считают, что модернизация без приостановки бизнеса — слишком сложная задача.
 
-Typical Low Code platforms promise fast modernization but introduce high license costs and often fail to handle the complexity. At the same time, traditional development is expensive and slow. Jmix general purpose high productivity application platform balances between the Low Code speed and traditional development flexibility.
-Типичные low-code платформы обещают быструю модернизацию, но влекут за собой высокие лицензионные расходы и часто не справляются со сложностью. В то же время, традиционная разработка является дорогой и медленной. Платформа приложений Jmix общего назначения с высокой производительностью балансирует между скоростью Low Code и гибкостью традиционной разработки.
+Большинство low-code платформ обещают быструю модернизацию, но стоимость лицензии невероятно высока, а функциональность платформ позволяет решать только простые задачи. Традионная же разработка слишком затратна и требует много времени. Платформа для разработки бизнес-приложений Jmix — это золотая середина между скоростью Low Code и гибкостью традиционной разработки.
 
-### A natural fit
+### Соответствие задачам
 
-Modernize enterprise applications with convenient data centric development approach and enterprise-grade UI components.
+Модернизируйте корпоративные приложения, используя data-centric подход и компоненты для создания корпоративных интерфейсов.
 
-### Future proof
+### Современный стек
 
-Build on top of mainstream open-source technologies trusted by millions of developers.
+Создавайте приложения на основе популярных технологий, которым доверяют миллионы разработчиков.
 
-### Easy to onboard
+### Легкая адаптация
 
-Use Java or Kotlin as a single language. Simplify engaging legacy teams with visual tooling.
+Ведите всю разработку на Java или Kotlin. Визуальные редакторы помогут адаптироваться и перейти с устаревших инструментов.
 
-### Productive
+### Продуктивность
 
 Develop even large applications relying on extensive data model and business logic in record time.
 
-### Cloud-enabled
+### Развертывание в облаке
 
-Deploy your applications to any cloud or host them on-premise. Don’t get hooked on vendor infrastructure.
+Развертывайте приложения в любом облачном сервисе или храните локально. Никакой зависимости от инфраструктуры поставщика.
 
-### Cost-efficient
+### Оптимальная стоимость
 
-Run the applications built with Jmix free of any usage or distribution fees.
-
-
-Learn more about Jmix features ->
-
-## Choose your modernization scenario
-
-### “Big Bang”
-
-Rollout a complete replacement system in one go. This is the most economic and cost-efficient approach, well suited for smaller less critical applications. Use Jmix reverse engineering capabilities, screens scaffolding, and ready to use add-ons to streamline the process
-
-TAB Bank Story
+Приложения на Jmix работают без платы за их использование или распространение.
 
 
-### Gradual Replacement
+Узнать больше о возможностях Jmix ->
+
+## Выберите свой тип модернизации
+
+### “Большой взрыв”
+
+Замените всю систему разом. Это самый экономичный и окупающийся подход. Он отлично подходит для небольших, менее критичных для непрерывной работы приложений. Возможности Jmix для реверс-инжиниринга и развертывания экранов, а также готовые дополнения помогут оптимизировать процесс.
+
+Пример TAB Bank
+
+
+### Постепенная замена
 
 Replace complex or mission-critical systems gradually to minimize disruption risks. Develop a new application with Jmix side-by-side with the legacy one, synchronizing data to keep both systems run in parallel. Sunset features one by one, until you can discontinue the whole old system.
 
-CDER Story
+Пример CDER
 
 
 ### Extending capabilities.
 
 Use Jmix open architecture to introduce new business capabilities by means of standalone applications. Integrate new apps into existing IT landscape using API.
 
-Ingenico Story
+Пример Ingenico
