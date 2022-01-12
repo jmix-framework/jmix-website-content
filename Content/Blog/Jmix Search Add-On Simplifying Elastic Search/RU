@@ -1,0 +1,135 @@
+# Дополнение Jmix Search - упрощаем Elastic Search
+
+Удобный поиск - всегда нужная и полезная функция в любом приложении, работающем с данными. 
+
+## Вступление 
+
+Удобный поиск - всегда нужная и полезная функция в любом приложении, работающем с данными. В CUBA было дополнение “FTS”, основанное на [Lucene](https://lucene.apache.org/). Для Jmix мы переработали поисковый движок. Теперь в качестве поискового движка мы используем [Elasticsearch](https://www.elastic.co/). 
+
+В основе Elasticsearch лежит Lucene, так что он обладает теми же особенностями - docs и indexes. Так как Jmix - это фреймворк для data-centric приложений, нужно создать документы и построить индексы на основе данных в реляционной БД.
+ 
+В этой статье мы обсудим подходы к применению Elasticsearch в Spring Boot и расскажем об идеях, которые реализовали в фреймворке Jmix на основе Spring Boot. 
+
+## Решение Spring Boot
+
+Spring Boot поддерживает Elasticsearch, для него существует [отдельный проект](https://docs.spring.io/spring-data/elasticsearch/docs/current/reference/html/). 
+
+Чтобы добавить Elasticsearch в приложение на Spring Boot, нам нужно определить “Documents” как Java-классы, аналогично сущностям JPA. Давайте взглянем на пример из документации Spring :
+
+```java
+@Document(indexName="books")
+class Book {
+    @Id
+    private String id;
+
+    @Field(type = FieldType.text)
+    private String name;
+
+    @Field(type = FieldType.text)
+    private String summary;
+
+    @Field(type = FieldType.Integer)
+    private Integer price;
+
+	// getter/setter ...
+}
+```  
+
+Здесь мы определяем индексированный документ, его поля и название индекса. Чтобы работать с индексами, сохранять документы и осуществлять поиск, нужно создать Spring Data репозиторий, как в примере ниже: 
+
+```java
+interface BookRepository extends Repository<Book, String> {
+  List<Book> findByNameAndPrice(String name, Integer price);
+}
+``` 
+
+Spring Boot API для Elasticsearch - классный и хорошо знакомый разработчикам инструмент, но если вы хотите настроить поиск по базе данных, все выглядит несколько интереснее. Чтобы сделать это, требуется реализовать вот такой код.
+
+Для создания индекса:
+1. Определите в документах поле ID и название таблицы, чтобы связать их с данными 
+2. Когда дата сохраняется или обновляется, создавайте документ через копирование данных из тех рядов, которые обновились 
+3. Отправляйте этот документ в Elasticsearch
+
+Для реализации поиска:
+1. Найдите документ согласно поисковому запросу 
+2. Найдите соответствующую сущность по названию таблицы и ID 
+
+Это несложная работа, но тем не менее, она требует написания кода вручную. Так есть ли способ немного упростить процесс?
+
+## Решение Jmix
+
+In Jmix, we provide a simple way for [configuring Elasticsearch indexing](https://docs.jmix.io/jmix/1.0/search/create_index_definitions.html). It will look familiar for developers who worked with BPM or Security in CUBA, and this approach won’t look strange for the experienced Spring Boot developers. Let’s have a look at the index configuration for the Book JPA entity.
+
+```java
+@Table(name = "book")
+@Entity
+public class Book {
+
+    @Id
+    private UUID id;
+
+    private String name;
+
+    private String summary;
+
+    private Integer price;
+
+
+    // getter/setter ...
+}
+
+```
+
+If we want to define an index to search books using Elasticsearch, we just need to define an interface and define one method:
+
+```java
+@JmixEntitySearchIndex(entity = Book.class)
+public interface BookIndexDefinition {
+	@AutoMappedField(includeProperties = {"name", "summary", "price"})
+	void bookMapping();
+}
+```
+After that, the index will be created automatically at the boot-time. There are various options for index creation: you can use masks to include or exclude entity fields to/from indexes, you can include referenced entities, index uploaded files, etc. You can find more details about it in the [add-on documentation](https://docs.jmix.io/jmix/1.0/search/advanced_mapping.html) 
+
+OK, the index is created, now we need to populate it. In Jmix, we set up a queue to store entity changes and an entity tracking listener. The listener tracks changes in an entity’s fields which are included into indexes and adds those changes into the queue. The third component - quartz job that updates Elasticsearch indexes. 
+
+The detailed search architecture diagram is below:
+
+
+![search_architecture.png]({{strapiUrl}}/uploads/search_architecture_5f06326fa4.png)
+
+So, Jmix framework creates and updates indexes automatically. After that, we can use the EntitySearcher service that will send a query to Elasticsearch, receive results, and return corresponding entities.  
+
+Jmix search add-on is easy to set up and use, but it has some limitations: it does not allow native Elasticsearch queries, therefore, it is less flexible. So, if this functionality is required, you can add Spring Boot Elasticsearch library and use its API to execute arbitrary queries. 
+
+
+### Using Search in the Backoffice UI
+
+The Jmix framework provides a component that allows to perform search from the backoffice UI. Basically it is one text field similar to what we usually see in search engine web pages like google or duckduckgo, and it provides [pretty advanced](https://docs.jmix.io/jmix/1.0/search/search_ui_component_fine_tuning.html) functionality. 
+
+![search.png]({{strapiUrl}}/uploads/Search_UI_143fd48910.png)
+
+In the screen descriptor it is represented by one tag:
+
+```xml
+<search:searchField id="bookSearchField" entities="Book"/>
+```
+So, this component will initiate search through all books added to the index. For example, if we have the following data set:
+
+![Books.png]({{strapiUrl}}/uploads/Books_bf65243c2e.png)
+
+And start searching for the “jungle” word, the search component will open the screen which displays all books which fields contain the word. 
+
+![Search_Result.png]({{strapiUrl}}/uploads/Search_Result_9a698fe156.png)
+
+By clicking on an entity name, we will open the editor screen for the selected entity. 
+
+In addition to this, we can add full-text search [capabilities to the generic filter](https://docs.jmix.io/jmix/1.0/search/full_text_search_in_filters.html). Apart from JPQL, Property and Group conditions, we can see the “Full-text condition” option. If we choose this condition, we can select a search strategy and apply it for the search string.
+
+![condition_editor.png]({{strapiUrl}}/uploads/condition_editor_dbe15d92d1.png)
+
+## Заключение
+
+In Jmix, we keep the approach used in the previous versions: take a battle-proven framework, build an API over it and simplify usage as much as it needs to be and we don't hide implementation from a developer, from the other side. 
+
+With Jmix you can build full text search indexes for your database quickly and easily. All you need to do - define interfaces and add annotations to their methods. Automatic index data queuing and quartz jobs will do the rest. And now you can use not only Jmix’s APIs to search data, but any tool that works with Elasticsearch compatible engines as well as Jmix’s Backoffice UI.
