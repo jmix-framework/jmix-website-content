@@ -20,7 +20,7 @@
 
 ### Продуктивность
 
-Develop even large applications relying on extensive data model and business logic in record time.
+Создавайте обширные системы на основе расширенной модели данных и бизнес-логики в рекордные сроки.
 
 ### Развертывание в облаке
 
@@ -37,7 +37,7 @@ Develop even large applications relying on extensive data model and business log
 
 ### “Большой взрыв”
 
-Замените всю систему разом. Это самый экономичный и окупающийся подход. Он отлично подходит для небольших, менее критичных для непрерывной работы приложений. Возможности Jmix для реверс-инжиниринга и развертывания экранов, а также готовые дополнения помогут оптимизировать процесс.
+Замена всей системы разом. Это самый экономичный и окупающийся подход. Он отлично подходит для небольших, менее критичных для непрерывной работы приложений. Возможности Jmix для реверс-инжиниринга и развертывания экранов, а также готовые дополнения помогут оптимизировать процесс.
 
 Пример TAB Bank
 
@@ -45,12 +45,14 @@ Develop even large applications relying on extensive data model and business log
 ### Постепенная замена
 
 Replace complex or mission-critical systems gradually to minimize disruption risks. Develop a new application with Jmix side-by-side with the legacy one, synchronizing data to keep both systems run in parallel. Sunset features one by one, until you can discontinue the whole old system.
+Замена сложных или критически важных систем постепенно, с нимимальными рисками. Jmix позволяет вести разработку нового приложения параллельно со старым, синхронизируя данные из обеих систем. Отключайте части старой системы по мере разработки новой.
 
 Пример CDER
 
 
-### Extending capabilities.
+### Расширение возможностей
 
 Use Jmix open architecture to introduce new business capabilities by means of standalone applications. Integrate new apps into existing IT landscape using API.
+Открытая архитектура Jmix позволяет вводить новые бизнес-функции в виде отдельных приложений. Интегрируйте новые приложения в существующую IT-структуру с помощью API.
 
 Пример Ingenico
