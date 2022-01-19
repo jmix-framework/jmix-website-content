@@ -4,27 +4,27 @@
 Дата-ориентированный подход и UI-компоненты корпоративного уровня позволяют разрабатывать и модернизировать LOB-приложения с расширенной моделью данных в рекордные сроки. Открытая архитектура упрощает интеграцию, что делает Jmix прекрасным инструментов для создания пользовательских приложений с продвинутым административным интерфейсом.
 
 ## Все под вашим контролем
-Jmix is built around an open-source framework leveraging Spring Boot features. This guarantees full control over the source code of your applications and that any of 8+ million Java developers worldwide can support them. Jmix public infrastructure includes active community forum, extensive documentation and learning materials, so your team would hardly hit a wall.
-Jmix построен на фреймворке с открытым кодом, который включает возможности Spring Boot. Такая архитектура обеспечивает полный контроль над исходным кодом приложений, а также гарантирует, что любой из 8+ миллионов Java-разработчиков по всему миру сможет поддерживать их. Инфраструктура Jmix состоит из активного форума разработчиков, подробной документации и обучающих материалов, так что ваши разработчики 
+Jmix построен на фреймворке с открытым кодом, который включает возможности Spring Boot. Такая архитектура обеспечивает полный контроль над исходным кодом приложений, а также гарантирует, что любой из 8+ миллионов Java-разработчиков по всему миру сможет поддерживать их. Инфраструктура Jmix состоит из активного форума разработчиков, подробной документации и обучающих материалов, так что ваши разработчики всегда смогут найти ответы на вопросы и получить совет, если стокнулись с трудностями.
 
-## Keep your developers happy
+## Комфорт для разработчиков
 
-Typical Low Code platforms aim to engage ‘citizen developers’, offering a high level of abstraction and purely visual development. Jmix advocates for a different approach, empowering professional developers with productive tools and API, retaining the pleasure of coding in a familiar environment.
-
+Большинство low-code платформ расчитаны на непрофессиональных разработчиков и предлагают высокий уровень абстракции и только визуальные средства разработки. Jmix реализует другой подход: инструменты и API для профессиональных разработчиков, позволяющие комфортно писать код в привычной среде.
 
 
-Depending on the project lifecycle, Jmix boosts the development several times compared to custom open-source stack development. This is achieved by the platform’s main features: a greatly elaborated “enterprise core” and modularization.
 
-By the enterprise core we mean:
+В зависимости от стадии жизненного цикла проекта Jmix способен ускорить разработку в несколько раз по сравнению с разработкой на open-source стеке. Такой эффект достигается благодаря основным свойствам платформы — хорошо проработанное "корпоративное ядро" и компонентизация.
 
-- Data model based on entities (objects)
-- Role based access control
-- Session management and scalability
-And by modularization we mean Studio features (development speed up and unification of development approaches) and modules reuse (not just code snippets, but full-fledged modules with internal business-logic and a common core).
+В понятие корпоративного ядра входит:
 
-Igor Klopotov, Product Architect at SKB Lab
+- Модель данных на основе сущностей (объекты)
+- Контроль доступа на основе ролей
+- Усправление сессиями и масштабирование
+
+Компонентизация подразумевает возможности Studio (ускорение и унификация подходов к разработке) и переиспользование модулей (не просто в виде фрагментов кода, а как полноценные модули со своей внутренней бизнес-логикой и общим ядром).
+
+Игорь Клопотов, Product Architect в SKB Lab
 
 
-Check up the application development flow with a short Quickstart video
+Вы можете изучить процесс разработки приложения в видео для быстрого старта 
 
-Show me
+Посмотреть
