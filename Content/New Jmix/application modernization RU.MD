@@ -44,7 +44,6 @@
 
 ### Постепенная замена
 
-Replace complex or mission-critical systems gradually to minimize disruption risks. Develop a new application with Jmix side-by-side with the legacy one, synchronizing data to keep both systems run in parallel. Sunset features one by one, until you can discontinue the whole old system.
 Замена сложных или критически важных систем постепенно, с нимимальными рисками. Jmix позволяет вести разработку нового приложения параллельно со старым, синхронизируя данные из обеих систем. Отключайте части старой системы по мере разработки новой.
 
 Пример CDER
@@ -52,7 +51,6 @@ Replace complex or mission-critical systems gradually to minimize disruption ris
 
 ### Расширение возможностей
 
-Use Jmix open architecture to introduce new business capabilities by means of standalone applications. Integrate new apps into existing IT landscape using API.
 Открытая архитектура Jmix позволяет вводить новые бизнес-функции в виде отдельных приложений. Интегрируйте новые приложения в существующую IT-структуру с помощью API.
 
 Пример Ingenico
