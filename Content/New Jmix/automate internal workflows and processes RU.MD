@@ -2,7 +2,6 @@
 
 ## Процессы играют критическую роль в большинстве организаций. Цифровизация имеет фундаментальное значение в повышении эффективности и результативности бизнес-процессов.
 
-Popular business process management (BPM) tools enable fast implementation of digital processes, often with zero coding. But integrating them into your IT landscape may prove challenging. Building digital workflows into line-of-business applications streamlines user experience and helps to break down data silos.
 Популярные инструменты для управления бизнес-процессами (BPM)позволяют быстро моделировать процессы практически без необходимости писать код. Но их бывает очень тяжело встроить в IT-окружение. Встроенные цифровые бизнес-процессы оптимизируют работу пользователей и помогают собрать разрозненные данные в приложениях line-of-business.
 
 ## Все, что вам нужно, в одном месте
