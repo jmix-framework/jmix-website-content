@@ -20,7 +20,6 @@
 
 Jmix унифицирует стиль разработки в организации, что позволяет снизить расходы на техподдержку. 
 
-In 2019, our team started working on a project for the Brunei government. The system required a user-friendly interface. We didn’t have much experience in building web UI. So, we searched for a development environment that provided out-of-the-box features for building UIs with in-built security and compatibility with previous database structures. And found the CUBA Platform (now Jmix), a perfect fit for our project. The solution was launched in February 2020.
 В 2019 году мы начали работу над проектом для правительства Брунея. Одним из требований к системе был удобный пользовательский интерфейс. У нас было не так много опыта в создании веб-интерфейсов. Поэтому мы искали среду разработки с набором готовых компонентов для создания UI со встроенной системой безопасности и совместимостью с предыдущими структурами баз данных. Так мы нашли CUBA Platform (сегодняшний Jmix) — идеальный инструмент для этого проекта. Решение запустили уже в феврале 2020.
 
 Stelios Savva, генеральный директор Card Access Services
