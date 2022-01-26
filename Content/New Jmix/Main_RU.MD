@@ -64,19 +64,18 @@ Jmix и его предшественник, CUBA Platform, используют
 Программируйте и оптимизируйте код бэкенда и фронтенда на Java в одной IDE. Не нужно беспокоиться об особенностях веб-разработки. Чтобы создать уникальный веб или мобильный интерфейс, вы можете подключать необходимые сторонние UI клиенты.
 
 ### Каталог дополнений
-Speed up time to market by selecting from a rich collection of ready-to-use add-ons implementing typical business requirements. Create and reuse your business-specific components across organization.
-
+Обширный набор дополнений с готовыми функциями, отвечающими наиболее типичным требованиям бизнеса, поможет ускорить выход проекта. Вы можете создавать нужные вам компоненты и переиспользовать их внутри компании.
 
 ### Автоматизация бизнес-процессов
-Automate business processes and internal workflows with visual BPMN and DMN designers, seamlessly integrated with forms, users and business logic.
+Автоматизируйте внутренние рабочие процессы с помощью визуальных дизайнеров BPMN и DMN, напрямую интегрированными с формами, пользователями и бизнес-логикой.
 
 ### Фреймворк корпоративного уровня
-Rely on the vast Spring Boot ecosystem extended with advanced data manipulation features, fine-grained security model and more.
+Положитесь на экосистему Spring Boot, дополненную улучшенными средствами работы с данными, тонко настроенную модель безопасности и другими возможостями.
 
 ### DevOps и облачные сервисы
-Build self-hosted or cloud-native applications. Deploy anywhere. Configure DevOps automatically without specialized expertise (coming soon).
+Создавайте локальные или облачные приложения. Развертывайте их в любой среде. Воспользуйтесь автоматической настройкой DevOps без помощи эксперта (возможность будет реализована в ближайшее время).
 
 ## Узнайте, на что вы способны с Jmix
-Find out more about efficient line-of-business web application development with Jmix.
+Больше подробностей об эффективности разработки line-of-business приложений на Jmix.
 
 Запросить демо
