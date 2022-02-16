@@ -17,3 +17,15 @@ In the soft reference example, it will be different. There will be a `CUSTOMER_I
 ### Foreign keys are valuable, why would someone not want to have them?
 
 Correct. For pretty much every case, there is no need to use soft references. Since it misses all the cool features of referential integrity, there are a lot of downsides. Why do we still need them? Here is an example:
+
+#### Example: Customer - Order - Comment
+
+Let's assume we want to have a column called "Comment". Comments can be created for a lot of different entities. There can be comments for customers as well as comments for orders, products etc. The common way to handle that in a programming language like Java is that you would create an interface called `Commentable`. This interface marks all classes that want to be commentable as such. Then the Comment class could have a reference to a Commentable object. This is what polymorphism is all about.
+
+However - there is no native equivalent in a relational database. The reason is that when you want to create a foreign key, you need to point it to a destination table. But there is no generic table that you could point to. Instead, you want to point to totally different tables.
+
+For cross-cutting functionality, these soft references can be the solution here.
+
+## Example Usage
+
+To see this application component in action, check out this example: [jmix-entity-soft-reference-example](https://github.com/mariodavid/jmix-entity-soft-reference-example).
