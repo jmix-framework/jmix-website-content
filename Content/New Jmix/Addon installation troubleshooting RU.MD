@@ -6,12 +6,15 @@
 
 - На вашем компьютере запущена Jmix Studio или IntelliJ IDEA с установленным плагином Jmix
 - У вас установлена версия плагина Jmix 0.9.1 или более поздняя
+
 ? Чтобы посмотреть версию плагина Jmix, зайдите в настройки плагинов
 (File | Settings | Plugins для Windows и Linux
 или IntelliJ IDEA | Preferences | Plugins для macOS)
 и найдите плагин Jmix на вкладке Installed: (jpg)
 
 - Дебаг-порт в вашей версии IDEA — 63343
+
+
 ? Чтобы настроить дебаг-порт в IDEA, перейдите в 
 настройки Execution, Deployment | Debugger
 (File | Settings | Build, Execution, Deployment | Debugger для Windows и Linux
