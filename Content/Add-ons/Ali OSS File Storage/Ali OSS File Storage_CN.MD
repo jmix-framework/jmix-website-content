@@ -1,6 +1,6 @@
 # Ali OSS 文件存储
 
-FileStorage（文件存储）接口的一个实现，将文件存在阿里云对象存储OSS（Object Storage Service） 中。
+FileStorage（文件存储）接口的一个实现，将文件存储在阿里云对象存储OSS（Object Storage Service） 中。
 
 ## 介绍
 
