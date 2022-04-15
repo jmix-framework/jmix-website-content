@@ -1,5 +1,6 @@
 # Sneferu
 
+
 ## Jmix integration UI testing library
 
 Sneferu is a testing library to simplify integration testing for a Jmix application. It contains APIs that allows you to express interactions and verifications with UI screens via a high-level testing language.
