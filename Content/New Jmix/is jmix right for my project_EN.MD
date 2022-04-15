@@ -18,18 +18,14 @@ Users are mostly company employees or partners
 
 The unique feature of Jmix is the ability to use Java or trendy Kotlin both for backend and frontend development. The benefits of one language for the whole stack cannot be underestimated: a single developer can implement a complete feature from data storage to web interface, eliminating frictions between web and backend teams. Mono language coding with high-level API makes Jmix the easiest option to onboard developers with experience in other server side languages or obsolete technologies like FoxPro, Oracle Forms, MS Access, Lightswitch, Silverlight, Delphi.
 
-If your project and team profile match the characteristics listed above, Jmix is most likely an ideal fit.
-
-## Major use cases for Jmix
+## More use cases for Jmix
 
 Modernize applications
-
 Automate internal workflows and processes
-
 Eliminate SaaS/Low-code vendor fees and limitations
 
 
-##  When should I consider different options? 
+##  When should I consider different options?
 
 Like any platform, Jmix is not a silver bullet. You might want to consider alternatives when:
 
@@ -42,4 +38,8 @@ Like any platform, Jmix is not a silver bullet. You might want to consider alter
 04 - The project is already running. Jmix is intended for starting new projects and would rarely apply to those already well on the way to production.
 
 05 - You don’t have access to professional developers; your project is a reasonably simple or standard application. Consider No Code or Low Code alternatives in those scenarios but bear in mind license fees and limitations.
+
+Discuss your project requirements with an expert
+Schedule a demo
+
 

@@ -12,10 +12,7 @@ Built-in industry-standard business processes orchestration engine with visual B
 
 Dedicated features like business calendar, user notifications, administration tools, and other essentials increase development productivity and shorten T2M
 
-## Success stories
+## Customer Stories
 
-
-
-Start your process automation journey with Jmix BPM
-
-Get started
+Schedule a demo of BPM capabilities in Jmix
+Schedule a demo

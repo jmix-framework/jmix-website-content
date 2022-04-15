@@ -1,8 +1,11 @@
-# Discover visual, data centric development experience combined with the world’s most powerful code editing capabilities of IntelliJ Platform.
+# Discover visual, data-centric development experience combined with the world’s most powerful code editing capabilities of IntelliJ Platform.
 
 In Jmix Studio, developers can choose to work directly with code or use visual editors, switching between representations at any time as they see fit. A combination of options ensures transparency and simplifies debugging.
 
 Visual designers, code generators and deployment automation tools dramatically boost developer productivity and facilitate fast learning.
+
+Latest Release: 1.2.1 
+Get Started
 
 ## Design Visually
 
@@ -36,5 +39,9 @@ Coming soon
 
 One-click deployment to AWS and other clouds
 
-## Download Jmix Studio and start your project now
-Install
+Jmix Studio offers per-developer pricing without any runtime limitations. Learn more on the pricing page.
+Pricing
+
+## What’s next
+Explore marketplace
+Get started

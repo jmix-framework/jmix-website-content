@@ -10,20 +10,20 @@ Jmix developers write code in IntelliJ IDEA and work with Spring Boot and other 
 
 ## Open Source
 
-Jmix framework is open-source and hosted on GitHub
+- Jmix framework is open-source and hosted on GitHub.
 
-Open architecture, extensive documentation and active community mean that you would not hit a wall
+- Open architecture, extensive documentation and active community mean that you would not hit a wall.
 
-Jmix is based on Spring Boot, so you can leverage your experience and tap into its broad ecosystem
+- Jmix is based on Spring Boot, so you can leverage your experience and tap into its broad ecosystem.
 
 
-## Familiar Tools
+## Familiar Tools 
 
-Jmix Studio is a plugin for IntelliJ IDEA Community. You can rely on its powerful code editing and debugging capabilities and combine with other IntelliJ IDEA plugins.
+- Jmix Studio is a plugin for IntelliJ IDEA Community or Enterprise edition. You can rely on its powerful code editing and debugging capabilities and combine with other IntelliJ IDEA plugins.
 
-Visual designers, smart hints and code generators take care of the boring stuff, so you can focus on what’s important.
+- Visual designers, smart hints and code generators take care of the boring stuff, so you can focus on what’s important.
 
-You can use your existing toolchain and infrastructure like Git or CI/CD tools.
+- You can use your existing toolchain and infrastructure like Git or CI/CD tools.
 
 
 
@@ -31,6 +31,17 @@ Technically, with Jmix you can implement anything that is possible in Java. At t
 
 Nikita Ledenev, Senior Java Developer
 
-Check up the application development flow with a short Quickstart video
+Jmix for:
 
-Show me
+IT Leaders
+Learn more
+
+ISVs
+Learn more
+
+Enterprise Architects
+Learn more
+
+Build a complete application with Jmix in 15 minutes
+
+Start now

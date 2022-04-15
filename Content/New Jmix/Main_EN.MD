@@ -3,12 +3,12 @@
 Discover a rapid application development platform which supercharges your digital initiatives without low-code limitations, vendor dependency and usage-based fees.
 
 Get Started
-Jmix Introduction
+Explore platform features
 
 ## Push the business forward
 
-### 01 - Push the business forward
-Jmix general purpose open architecture based on future proof technology stack is capable to support various digital initiatives across the organization.
+### 01 - Enable digital transformation
+Jmix general purpose open architecture based on future-proof technology stack is capable to support various digital initiatives across the organization.
 
 ### 02 - Improve business resilience
 Jmix applications are indeed yours and can be supported independently thanks to open-source runtime utilizing mainstream technologies. Your data is secure with a server-side frontend development model and fine-grained access control.
@@ -26,7 +26,7 @@ Jmix developers work with widely adopted open-source stack and convenient API in
 Unlike most application development platforms, there are no fees for using the applications you’ve built.
 
 ### 07 - Get more projects done faster
-Jmix supercharges your team with high productivity tools and ready to use components.
+Jmix supercharges your team with high productivity tools and ready-to-use components.
 
 ## Built for developers
 
@@ -39,8 +39,10 @@ Java/Kotlin as a mono language for seamless development and debugging
 3
 Powered by IntelliJ IDEA – the world’s most popular developer IDE
 
+Jmix for Developers ->
+
 ## Trusted and battle-proven
-Jmix and it’s previous generation CUBA Platform are used by thousands of developers and companies worldwide. 
+Jmix and its previous generation CUBA Platform are used by thousands of developers and companies worldwide. 
 
 ## Customer Stories
 
@@ -75,7 +77,7 @@ Rely on the vast Spring Boot ecosystem extended with advanced data manipulation 
 ### DevOps and Cloud
 Build self-hosted or cloud-native applications. Deploy anywhere. Configure DevOps automatically without specialized expertise (coming soon).
 
-## Discover Jmix capabilities
+### Discover Jmix capabilities
 Find out more about efficient line-of-business web application development with Jmix.
 
 Schedule a Demo

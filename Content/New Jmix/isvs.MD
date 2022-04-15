@@ -1,4 +1,4 @@
-# Create or renovate your digital product fast with no scaling penalties
+# Create or renovate your digital product fast with zero penalties
 
 ## Fast prototyping
 
@@ -16,6 +16,18 @@ We configure fairly complex workflows for the customers’ needs, and Jmix in-bu
 
 Dave Chaney, Varasset Managing Partner
 
-Check up the application development flow with a short Quickstart video
+Jmix for:
 
-Show me
+Developers
+Learn more
+
+IT Leaders
+Learn more
+
+Enterprise Architects
+Learn more
+
+Watch how to build a complete application with Jmix in 15 minutes
+
+Watch video
+Schedule a demo

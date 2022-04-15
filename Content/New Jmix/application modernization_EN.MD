@@ -8,7 +8,7 @@ Typical Low Code platforms promise fast modernization but introduce high license
 
 ### A natural fit
 
-Modernize enterprise applications with convenient data centric development approach and enterprise-grade UI components.
+Modernize enterprise applications with convenient data-centric development approach and enterprise-grade UI components.
 
 ### Future proof
 
@@ -37,7 +37,7 @@ Learn more about Jmix features ->
 
 ### “Big Bang”
 
-Rollout a complete replacement system in one go. This is the most economic and cost-efficient approach, well suited for smaller less critical applications. Use Jmix reverse engineering capabilities, screens scaffolding, and ready to use add-ons to streamline the process
+Rollout a complete replacement system in one go. This is the most economic and cost-efficient approach, well suited for smaller less critical applications. Use Jmix reverse engineering capabilities, screens scaffolding, and ready-to-use add-ons to streamline the process.
 
 TAB Bank Story
 
