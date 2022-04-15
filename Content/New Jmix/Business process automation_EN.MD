@@ -10,3 +10,10 @@ Built-in industry-standard processes execution engine performs easy-lifting of b
 
 ## Inspect
 Jmix developer has full access to the source code and can easily debug processes in a convenient Java IDE – IntelliJ IDEA. With administration tools, you can monitor the running process instances, identify and address data entry mistakes, manage process model definitions.
+
+Watch the video
+
+What’s next
+
+BPM add-on on the Marketplace
+Schedule a demo
