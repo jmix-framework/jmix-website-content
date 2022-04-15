@@ -1,4 +1,5 @@
 # Dashboards
+
 Enables creating and embedding dashboards into your application screens.
 
 ## Overview
