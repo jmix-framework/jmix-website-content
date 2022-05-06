@@ -19,8 +19,8 @@ Generally, the original image does not fit the size requirement, we need to proc
 
 
 #### 功能
-0. 基于 Croppie 项目, 所以查看这个项目对于理解此组件很有帮助 
-1. 可与 CUBA 的 FileUploadField 一起使用
+0. 基于 [Croppie](https://github.com/foliotek/croppie) 项目, 所以查看这个项目对于理解此组件很有帮助 
+1. 可与 Jmix 的 [FileUploadField](https://docs.jmix.io/jmix/ui/vcl/components/file-upload-field.html) 结合使用
 2. 提供简单的调用 API
 3. 提供多种图片处理选项，如剪裁区域、图片质量等
 4. 实时预览处理结果
