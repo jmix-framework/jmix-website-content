@@ -28,8 +28,8 @@ It covers:
 - Setting up CI via Github Actions
 - Deploying application to Heroku
 
-What’s next
-Get started
-Youtube channel
+- What’s next
+- Get started
+- Youtube channel
 
 
