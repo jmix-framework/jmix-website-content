@@ -1,0 +1,51 @@
+# IT Consultores modernizes operational banking system and reporting software platform
+
+Modernization of operational banking system for the South American markets, grow of market share and Design Talent Awards with Jmix.
+
+banking, banks, modernization, reporting software platform
+
+
+Industry
+BFSI
+
+## The Story of IT Consultores 
+
+IT Consultores is a leading software provider to the banking industry in Paraguay, supplying the majority of the country’s banks, founded in 2003. They help banks to add value and use the transforming power of technology and its ability to generate a real impact on their clients' business. 
+
+## The Challenge of Modernization IT Consultores Faced
+
+The company’s legacy technology had become outdated. But they faced with a problem of the lack of developers on the South American market. In need of modernization stakeholders began researching modern technology frameworks and applications for their next product release. As their business grew, they needed a simple way to increase speed of development.
+
+#### Why IT Consultores Chose Jmix 
+
+Research led the company to approach Jmix regarding its Jmix platform, a framework for rapid enterprise development. Jmix hasn't limitations that have low code platforms but also allows it to speed up app development. In Jmix you pay for developer seats, not for user fees, and this has a huge benefit for business with a lot of customers such as banks. 
+
+By rebuilding the core system’s architecture and UI using Jmix, the new solution could be scaled easily and customized to support individual client requirements, while decreasing speed and cost of development significantly. 
+
+So, IT Consultores has chosen Jmix for app modernization. 
+
+## How Jmix responded  
+
+The project team at IT Consultores worked in partnership with Jmix’s custom solutions team to migrate the company’s existing banking software solutions to Jmix. 
+
+The new solution, “Finera”, is designed to fulfil the operational needs of the banking sector through a more intuitive and user-friendly solution. We have replaced complicated screens displaying lots of data with workflows which guide users through processes to reduce the risks of human error. 
+
+All core functionality of an operational banking system such as account management, configuration of transactions, etc.
+
+Customer 360 — Client information presented in a single view with easy-to-use navigation and configurable elements to tailor displays to individual user needs. 
+
+Credit management and control — fully automated credit process including incoming loan applications processing, loans issuing, interest calculation and loans closure. 
+
+Following the successful rebuild of Finera, IT Consultores continued to work with Jmix to develop an additional product for the banking industry, a reporting software platform called ‘Kadiko’. This solution pulls data from various IT systems in use to produce business intelligence reports. One example is Kadiko’s liquidity report which can be shared directly with the Central Bank of Paraguay to support credit applications; the applicant is sent updates such as further information required or the credit request has been approved/denied. Staff have access to a dashboard which shows updates and any reports which require further action and as a result, Kadiko significantly reduces the time spent on admin-heavy processes and report writing. 
+
+
+## Result
+IT Consultores has launched two products in partnership with Jmix which are market-leading in South and Latin America, strengthening the company’s reputation as a technology leader. 
+
+The company has benefitted from working in partnership with Jmix’s custom solutions team. Internal IT staff (who have knowledge of the business, client needs and the local market) have been able to scale up development by leaning on Jmix’s resources who have specialist knowledge of Jmix and therefore the entire system rebuild has been expedited. 
+
+Since launching Finera, IT Consultores has onboarded new finance companies in Paraguay and more recently, won an award in the Service Design category at the Design Talent Awards in recognition of its new solutions. 
+
+Easier improved user experience
+Growing market share 
+Award in the Service Design category at the Design Talent Awards 

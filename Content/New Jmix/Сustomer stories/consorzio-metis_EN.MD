@@ -1,0 +1,51 @@
+# **Innovative Disaster Management** by Consorzio Metis
+A solution for monitoring natural disasters and managing the damage control.
+
+Industry
+Professional Services
+
+## The Story
+
+Consorzio Metis is an Italian custom software development and IT consulting company which works with public authorities and non-profit organizations. Consorzio Metis got a task to build a solution for monitoring natural disasters and managing the damage control in the Tuscany region. This system should help volunteers to resolve emergency situations. Due to a tight time frame and limited human resources, the company required a flexible tool with out-of-the-box features.
+
+In 2015, after research, Consorzio Metis started to use Jmix (ex-CUBA Platform). It was chosen for its comprehensive stack of popular technologies and low entry barrier. CUBA had the corresponding functionality and boosted the development process.
+
+The created solution is called SOUP_RT (Sala Operativa Unificata Permanente Regione Toscana), which means a unified 24/7 operation centre, Tuscany region. The system is used to prevent and eliminate natural disasters’ consequences. The SOUP system has a rich, modern and user-friendly interface. It took about 12 man-months to develop its current functionality. CUBA helped to save much time and effort by providing fast scaffolding and topography analysis via the Maps add-on.
+
+## Comprehensive Digital Transformation for Helping People
+
+Consorzio Metis provides solutions for the healthcare and civil protection industries. The company has been on the Italian market since 2000.
+
+The current project Consorzio Metis develops on Jmix is a solution for monitoring natural disasters and managing damage control - the above-mentioned SOUP_RT. It already operates in the Tuscany region, helping volunteers to resolve emergency situations.
+
+SOUP performs weather analysis, resources management (including human resources), natural disaster alerts and communication with organizations responsible for civil protection (firefighters, government, etc). For example, the service is collaborating with the Italian National Fire Brigade and non-profit organizations.
+
+The Consorzio Metis team implemented the following features:
+
+- remote weather control of the territory (hydrology, seismic, snow survey) integrated with the Functional Regional Centre;
+
+- databases necessary for the management of any emergencies;
+
+- disaster alerts processing with a video conference system used for connections with the Department of Civil Protection;
+
+- visual representation of the weather events on the map with the events’ type, date, location;
+
+- customized maps with various layers, displaying weather conditions and resources locations;
+
+- volunteers assignment and transfer organization;
+
+- advanced role-based access (roles are grouped; users can have profiles with several role types);
+
+- resources control.
+
+Jmix helped Consorzio Metis to cover all the technologies necessary for the project and allowed a simpler and faster development process. Even developers with little experience could complete advanced tasks with the help of the framework.
+
+Consorzio Metis is planning to extend the system functionality. The nearest tasks include lots of integrations for implementing the firefighting management.
+
+
+
+Digital disaster management from scratch
+
+12 man-months spent
+
+Rich functionality
