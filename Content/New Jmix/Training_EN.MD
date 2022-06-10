@@ -24,11 +24,13 @@ The community forum is a place where Jmix enthusiasts and team members help each
 
 ## Please contact us to configure your group or individual learning track
 
-Name
-E-mail
-Company
-Comments
-I have read and accept the [privacy policy](https://www.jmix.io/privacy-policy)
-Submit
+- Name
+- E-mail
+- Company
+- Comments
+
+- I have read and accept the [privacy policy](https://www.jmix.io/privacy-policy)
+
+- Submit
 
 
