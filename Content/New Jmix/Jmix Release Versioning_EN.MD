@@ -5,8 +5,7 @@ Jmix release numbers follow a loose form of Semantic Versioning:
 Versions are numbered in the form X.Y.Z, where:
 
 - X.0.0 is a **major release**, for example 1.0.0, 2.0.0
-- X.Y.0 is a **minor release**, for example 1.1.0, 2.3.0- ЧюНю0 шы ф **ьштщк кудуфыу**б ащк учфьзду 1ю1ю0б 2ю3ю0
-
+- X.Y.0 is a **minor release**, for example 1.1.0, 2.3.0
 - X.Y.Z is a **patch release**, for example 1.0.1, 1.2.5
 
 
