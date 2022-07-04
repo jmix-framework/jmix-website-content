@@ -13,6 +13,7 @@ WHEREAS, Haulmont is interested in furnishing Services for the Customer in accor
 NOW, THEREFORE, IN CONSIDERATION of the mutual promises, conditions, terms and agreements contained in this Agreement, the sufficiency of which is hereby acknowledged, the Parties mutually agree as set forth below:
 
 **1. Accepted Definitions and Interpretation**
+
 1.1. For the purpose of this Agreement, the terms and definitions contained in Appendix A to this Agreement shall have the corresponding definitions given in the Appendix A.
 
 1.2. Article headings shall not affect the interpretation of the Terms and Definition.
@@ -32,6 +33,7 @@ b. Appendix A – Terms and Definitions;
 1.5. The Appendix A forms integral part of this Agreement and shall have effect as if set out in full in the Main Body of this Agreement. Any reference to this Agreement includes the Appendix A of this Agreement.
 
 **2. Subject of the Agreement**
+
 2.1. It is the intention of the Parties that this Agreement shall apply to the provision of the Services (except for some Services subject to separate agreements) delivered by Haulmont to the Customer and that such Services shall be subject to the terms and conditions set forth herein.
 
 2.2. Some particular Services may be provided to the Customer under separate Agreements.
@@ -48,6 +50,7 @@ c. are not technically possible or are outside Haulmont's control (for example, 
 d. infringe (or may infringe) the rights of any third party.
 
 **3. Services**
+
 3.1. In the event that the Customer wishes Haulmont to provide Services, the Customer shall place an order for particular Services (“the Order”) by one of the following ways:
 a. by making payment via the purchasing procedure on the Site, or
 b. by making payment against an invoice emailed by Haulmont to the email address (addresses) used by the Customer to contact Haulmont.
@@ -112,6 +115,7 @@ b. arranging its Participants' access to the Training in accordance with the Tra
 
 
 **5. Consulting**
+
 5.1. Where the Order includes Consulting, this Article 5 shall apply while Articles 4 and 6 shall not.
 
 5.2. Consulting may be provided both online and off-line via calls, chats, exchange of emails, etc.
@@ -211,6 +215,7 @@ b. the defect cannot be fixed with commercially reasonable efforts.
 6.15. The number of the Customer Representatives is limited with 1 (one) individual.
 
 **7. Quality**
+
 7.1. Any Services delivered under this Agreement shall be rendered with due quality in compliance with: (a) applicable provisions of the governing rules of law; (b) this Agreement and (c) quality standard established in IT industry.
 
 7.2. Taking into account that by its nature the Services are rendered by Haulmont and consumed by the Customer simultaneously, the Parties agree that quality of the Services shall be assessed by the Customer during such Services are being delivered by Haulmont.
@@ -226,6 +231,7 @@ b. the defect cannot be fixed with commercially reasonable efforts.
 7.7. Interpretations, research, analysis, opinions, recommendations, designs, analyses, programs, models, advice or interpretational data (“Interpretations and Recommendations”) furnished by Haulmont during rendering the Services hereunder are opinions based upon inferences from empirical relationships and assumptions, and industry practice, which inferences, assumptions and practices are not infallible. Accordingly, Haulmont does not warrant the accuracy, correctness or completeness of any Interpretations and Recommendations, or that the Customer’s reliance or any third party’s reliance on the Interpretations and Recommendations will accomplish any particular results. The Customer assumes all responsibility for the reliance upon and the use of the Interpretations and Recommendations and for all decisions based thereon, and the Customer shall release, indemnify, defend and hold Haulmont and its Affiliates harmless from and against any claims arising out of any such decisions and the reliance on or the use of any such Interpretations and Recommendations.
 
 **8. Payments and charges** 
+
 8.1. The Service Fee shall be calculated in accordance with Haulmont's estimate/quotation for the Services or, in the absence of an estimate/quotation, in accordance with Haulmont's price list (which is available on the Site) at the Commencement Date. All Service Fees exclude value added tax chargeable for the time being ("VAT"). VAT shall be paid in addition to the Service Fee, where VAT is applicable (for UK residents only).
 
 8.2. Haulmont reserves the right to alter the Service Fee at any time, save that Haulmont shall not alter the Service Fee for the corresponding Services since the particular Commencement Date.
@@ -273,6 +279,7 @@ h. nor any special, indirect, or consequential loss, cost, damage, charge or exp
 10.6. All references to Haulmont in this Article 10 shall, for the purposes of this Article only, be treated as including all employees, officers, subcontractors and suppliers of Haulmont (its Affiliates), all of whom shall have the benefit of the exclusions and limitations of liability set out in this Article.
 
 **11. Assignment and subcontracting**
+
 11.1 The Customer shall not, without the prior written consent of Haulmont, assign, transfer, charge, mortgage, subcontract, sub-license, declare a trust of or deal in any other manner with all or any of its rights or obligations under the Agreement.
 
 11.2. Haulmont may at any time and at its discretion, assign, transfer, charge, mortgage, subcontract, declare a trust of or deal in any other manner with all or any of its rights or obligations under the Agreement.
@@ -280,6 +287,7 @@ h. nor any special, indirect, or consequential loss, cost, damage, charge or exp
 11.3. It is expressly understood that Haulmont is an independent contractor and that neither Haulmont nor anyone employed by Haulmont shall be deemed for any purpose to be an employee, agent, partner, servant or representative of the Customer.
 
 **12. Duration and Termination**
+
 12.1 This Agreement shall remain in full force and effect until terminated by either Party in accordance with the provisions of this Article 12 or as otherwise provided for in this Agreement.
 
 12.2. Either Party may terminate this Agreement without cause by giving the other Party sixty (60) calendar days prior written notice.
@@ -300,6 +308,7 @@ b. the accrued rights, remedies, obligations and liabilities of the Parties as a
 c. Articles and clauses which expressly or by implication have effect after termination shall continue in full force and effect, including this clause 12.6(c), Article 1 (Accepted Definitions and Interpretation); Article 9 (Intellectual Property Rights and License); Article 10 (Limits of Liability); Article 16 (Notices); Article 17 (Governing Rules of Law and Jurisdiction), and Article 18 (Miscellaneous).
 
 **13. Entire Agreement**
+
 13.1. The Agreement constitutes the entire agreement between the Parties and supersedes and extinguishes all previous drafts, arrangements, understandings or agreements between them, whether written or oral, relating to the subject matter of the Agreement.
 
 13.2. Any samples, drawings, descriptive matter or advertising issued by Haulmont, and any descriptions or illustrations contained in Haulmont's website, catalogues, quotations/estimates and/or brochures, are issued or published for the sole purpose of giving an approximate idea of the Services described in them. They shall not form part of the Agreement or have any contractual force.
@@ -317,6 +326,7 @@ c. Articles and clauses which expressly or by implication have effect after term
 14.2. If any invalid, unenforceable or illegal provision of the Agreement would be valid, enforceable and legal if some part of it were deleted, the provision shall apply with the minimum modification necessary to make it legal, valid and enforceable.
 
 **15. Force majeure**
+
 A Party, provided that it has complied with the provisions of clause 15.2, shall not be in breach of the Agreement, nor liable for any failure or delay in performance of any obligations under the Agreement (and, subject to clause 15.3, the time for performance of the obligations shall be extended accordingly) arising from or attributable to acts, events, omissions or accidents beyond its reasonable control ("Force Majeure Event"), including but not limited to any of the following:
 
 - acts of God, including but not limited to fire, flood, earthquake, windstorm or other natural disaster;
@@ -337,6 +347,7 @@ A Party, provided that it has complied with the provisions of clause 15.2, shall
 15.3. If the Force Majeure Event prevails for a continuous period of more than three (3) months, either Party may terminate the Agreement by giving sixty (60) days written notice to all the other Party. On the expiry of this notice period, the Agreement will terminate. Such termination shall be without prejudice to the rights of the Parties in respect of any breach of the Agreement occurring prior to such termination.
 
 **16. Notices** 
+
 16.1. All notices and documents in connection with this Agreement shall be executed in printed or electronic/digital form and may be delivered both by mail service and via electronic means including email or other Internet-based communication tools.
 
 16.2. The provisions of this Article 16 shall apply to the service of any proceedings or other documents in any legal action.
@@ -350,19 +361,25 @@ A Party, provided that it has complied with the provisions of clause 15.2, shall
 17.3. The Parties irrevocably agree that any dispute, controversy or claim arising out of or in connection with this Agreement, including any question regarding its conclusion, existence, validity, interpretation, execution, breach, refusal to perform, or termination, and including non-contractual disputes or claims, shall be referred to and finally resolved by arbitration under the LCIA Rules, which Rules are deemed to be incorporated by reference into this clause. The number of arbitrators shall be one. The seat, or legal place, of arbitration shall be the city of London, the United Kingdom. The language to be used in the arbitral proceedings shall be English. Judgment upon the award rendered by the arbitrator may be entered by any court having jurisdiction thereof.
 
 **18. Miscellaneous**
+
 18.1. **Waiver**
+
 No failure or delay by a Party to exercise any right or remedy provided under the Agreement or by the governing rules of law shall constitute a waiver of that or any other right or remedy, nor shall it preclude or restrict the further exercise of that or any other right or remedy. No single or partial exercise of such right or remedy shall preclude or restrict the further exercise of that or any other right or remedy.
 
 18.2. **Variation**
+
 No variation of the Agreement shall be effective unless it is in writing and signed by the Parties.
 
 18.3. **Third-party rights**
+
 A person who is not a Party to the Agreement shall not have any rights under the Agreements to enforce any term of the Agreement.
 
 18.4. **No partnership or agency**
+
 Nothing in the Agreement is intended to, or shall be deemed to, establish any partnership or joint venture between any of the Parties, constitute any Party the agent of another Party, nor authorize any Party to make or enter into any commitments for or on behalf of any other Party.
 
 18.5. **Counterparts**
+
 This Agreement may be executed in any number of counterparts, each of which when executed and delivered shall constitute an original of this Agreement, but all the counterparts shall together constitute the same Agreement.
 
 ### Appendix A. Terms and Definitions
