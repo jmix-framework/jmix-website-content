@@ -89,7 +89,7 @@ We have set out below, in a table format, a description of all the ways we plan 
 
 Note that we may process your personal data for more than one lawful ground depending on the specific purpose for which we are using your data. Please [contact](https://www.jmix.io/contacts/) us if you need details about the specific legal ground we are relying on to process your personal data where more than one ground has been set out in the table below.
 
-<tbody><tr><th width="40%">Purpose/Activity</th> <th width="20%">Type of data</th> <th width="40%">Lawful basis for processing including basis of legitimate interest</th></tr> <tr><td>To register you as a new customer</td> <td><ul><li>Identity</li> <li>Contact</li></ul></td> <td>Performance of a contract with you</td></tr> <tr><td>To process and deliver your order including:
+<table cellpadding="4" cellspacing="2"><tbody><tr><th width="40%">Purpose/Activity</th> <th width="20%">Type of data</th> <th width="40%">Lawful basis for processing including basis of legitimate interest</th></tr> <tr><td>To register you as a new customer</td> <td><ul><li>Identity</li> <li>Contact</li></ul></td> <td>Performance of a contract with you</td></tr> <tr><td>To process and deliver your order including:
                   <ul><li>Manage payments, fees and charges</li> <li>Collect and recover money owed to us</li></ul></td> <td><ul><li>Identity</li> <li>Contact</li> <li>Financial</li> <li>Transaction</li> <li>Marketing and Communications</li></ul></td> <td><ul><li>Performance of a contract with you</li> <li>Necessary for our legitimate interests (to recover debts due to us)</li></ul></td></tr> <tr><td>To manage our relationship with you which will include:
                   <ul><li>Notifying you about changes to our terms or privacy policy</li> <li>Asking you to leave a review or take a survey</li></ul></td> <td><ul><li>Identity</li> <li>Contact</li> <li>Profile</li> <li>Marketing and Communications</li></ul></td> <td><ul><li>Performance of a contract with you</li> <li>Necessary to comply with a legal obligation</li> <li>Necessary for our legitimate interests (to keep our records updated and to
                       study how customers use our products/services)</li></ul></td></tr> <tr><td>To enable you to partake in a prize draw, competition or complete a survey</td> <td><ul><li>Identity</li> <li>Contact</li> <li>Profile</li> <li>Usage</li> <li>Marketing and Communications</li></ul></td> <td><ul><li>Performance of a contract with you</li> <li>Necessary for our legitimate interests (to study how customers use our
@@ -105,7 +105,7 @@ Note that we may process your personal data for more than one lawful ground depe
                   services, to keep our website updated and relevant, to develop our business and to inform
                   our marketing strategy)</td></tr> <tr><td>To make suggestions and recommendations to you about goods or services that may be of
                   interest to you</td> <td><ul><li>Identity</li> <li>Contact</li> <li>Technical</li> <li>Usage</li> <li>Profile</li></ul></td> <td>Necessary for our legitimate interests (to develop our products/services and grow our
-                  business)</td></tr></tbody>
+                  business)</td></tr></tbody></table>
 
 
 ### Marketing
