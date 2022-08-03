@@ -1,0 +1,221 @@
+   IFRAME:
+   [1]https://www.googletagmanager.com/ns.html?id=GTM-MH3DTWV
+
+      [1] https://www.googletagmanager.com/ns.html?id=GTM-MH3DTWV
+
+   [2]logo jmix
+   (BUTTON) EN
+  https://www.jmix.io/
+
+     * [3]CN
+
+      [3] https://www.jmix.cn/
+
+   Contact Us
+   (BUTTON) EN
+     * [4]CN
+
+      [4] https://www.jmix.cn/
+
+   (BUTTON)
+   You are browsing CUBA Platform website section. This is the
+   previous generation of Jmix.
+   Choose any item in the top menu to return to Jmix.
+   Important notice. We introduce new Jmix and CUBA Platform
+   pricing starting from 14.12.2021.
+   Please find details in this [5]post.
+
+      [5] https://forum.cuba-platform.com/t/new-pricing-for-cuba-platform-and-jmix/15838
+
+A robust open-source foundation for line-of-business (LOB)
+applications
+
+   Jmix Framework leverages the power of Spring – a de-facto
+   standard in Java web applications development. Jmix developers
+   can easily tap into its wide ecosystem and utilize their
+   previous expertise. Spring core guarantees high scalability and
+   support for any deployment options – from local to public
+   clouds.
+   [6]GitHub [7]Latest Release: 1.3.1 [8]Release Versioning
+
+      [6] https://github.com/jmix-framework/jmix
+      [7] https://docs.jmix.io/jmix/whats-new/
+      [8] https://www.jmix.io/framework/versioning
+
+One language
+
+   With Jmix, you can use just one language – Java or Kotlin to
+   build the entire application. Mono language coding simplifies
+   staffing, eliminates fragmented responsibility between front-
+   and backend teams and boosts productivity. One developer can
+   implement a complete feature from the data model and business
+   logic to UI in a single IDE with superior debugging
+   capabilities.
+
+Powerful data manipulation features
+
+   Line-of-business or LOB applications frequently rely on an
+   extensive data model, with data stored in relational databases.
+   Jmix framework provides support for:
+     * Advanced visual components for data filtering, eliminating
+       the need to hard code queries or their parameter
+     * Transparent and efficient application of security
+       constraints at data load throughout the whole application
+     * Soft deletion, so you can restore any deleted entity and
+       easily maintain data retention policies
+     * Audit, enabling tracking all changes to the critical bits
+       of data
+     * Declarative definition of data graphs to be loaded
+
+Fine-grained access control
+
+   Large enterprise solutions introduce complex authorization
+   requirements. The implementation may result in an unmanageable
+   horde of "if" statements scattered around the code.
+
+   Jmix security subsystem offers declarative configuration of
+   access to:
+     * icon
+       Screen and menu items
+     * icon
+       Data model on entities and attributes level
+     * icon
+       Data matching certain criteria, e.g. documents belonging to
+       a user’s department
+     * icon
+       Custom tokens for protecting specific bits of business
+       logic
+
+   With Jmix, a developer can configure advanced access control
+   rules with minimal efforts and ensure their complete
+   transparency.
+
+Enterprise-grade web UI
+
+   Jmix UI framework offers everything to deliver hundreds of
+   modern-looking, functional and secured screens in record time:
+   [5c30cb.png]
+
+Simple Integration with Anything
+
+   Jmix offers seamless reuse of thousands of libraries and
+   connectors to the most popular software from Spring and Java
+   ecosystems.
+
+   Generic REST and GraphQL API provide controlled access to your
+   data for external applications, or you can easily expose custom
+   endpoints to offer tailored API.
+   decorate figure
+   young man working at the computer
+
+What’s next
+
+   young man working at the computer
+   [9]Explore tools [10]Live demo
+   Platform
+   Overview
+  https://www.jmix.io/tools/
+  https://www.jmix.io/learn/live-demo/
+
+     * Framework
+     * [11]Studio
+      https://www.jmix.io/tools/
+
+     * [12]Add-ons Marketplace
+      https://www.jmix.io/marketplace/
+
+     * [13]DevOps Cloud
+      https://www.jmix.io/devops-cloud/
+
+     * [14]Business Process Automation
+      https://www.jmix.io/business-process-automation/
+
+     * [15]Pricing
+
+     [15] https://www.jmix.io/subscription-plans-and-prices/
+
+   Evaluation guide
+     * [16]Is Jmix right for my project?
+
+     [16] https://www.jmix.io/is-jmix-right-for-my-project/
+
+   Previous version
+     * [17]CUBA Platform
+
+     [17] https://www.jmix.io/cuba-platform/
+
+   FOR BUSINESS
+   By persona
+     * [18]IT Leaders
+      https://www.jmix.io/it-leaders/
+
+     * [19]ISVs
+      https://www.jmix.io/isvs/
+
+     * [20]Enterprise Architects
+
+     [20] https://www.jmix.io/enterprise-architects/
+
+   By industry
+     * [21]Customer Stories
+      https://www.jmix.io/customer-stories/
+
+     * [22]Insurance
+
+     [22] https://www.jmix.io/insurance-automation/
+
+   By use case
+     * [23]Modernize Applications
+      https://www.jmix.io/application-modernization/
+
+     * [24]Reduce Software Spendings
+      https://www.jmix.io/eliminating-vendor-fees-and-limitations/
+
+     * [25]Automate Service Workflows
+
+     [25] https://www.jmix.io/automate-internal-workflows-and-processes/
+
+   FOR DEVELOPERS
+   Overview
+     * [26]Why Jmix?
+      https://www.jmix.io/developers/
+
+     * [27]Get started
+      https://www.jmix.io/jmix-plugin-installation/
+
+     * [28]Learn
+      https://www.jmix.io/learn/
+
+     * [29]Documentation
+      https://docs.jmix.io/jmix/intro.html
+
+     * [30]Forum
+      https://forum.jmix.io/
+
+     * [31]Blog
+
+     [31] https://www.jmix.io/blog/
+
+   Services & Partners
+     * [32]Training
+      https://www.jmix.io/training/
+
+     * [33]Consultancy
+      https://www.jmix.io/services-support/
+
+     * [34]Become a Partner
+
+     [34] https://www.jmix.io/partners/
+
+   Developed by [35]Haulmont
+   [36]Terms of Use [37]Contacts
+  https://www.haulmont.com/
+  https://www.jmix.io/terms-of-use
+  https://www.jmix.io/contacts/
+
+     *
+     *
+     *
+     *
+     *
+     *
