@@ -78,7 +78,3 @@ We are also constantly working on fixing issues in the current release 1.3. Patc
 
 We'll be glad to see your feedback on our [forum](https://forum.jmix.io)!
 Thanks to all who contributed with their ideas, suggestions and bugreports! 
-
-
-
-
