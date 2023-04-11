@@ -1,17 +1,14 @@
 # Menu Editor
 
-Provides support of multiple main menus in Jmix applications.
+Enables multiple main menus configurable at runtime.
 
 ## OVERVIEW
 
-The add-on provides support of multiple main menus in Jmix applications. Menus are stored in the database
-and can be created and edited at runtime using the administration screens.
+The add-on provides support for multiple main menus in Jmix applications. Menus are stored in the database and can be created and edited at runtime using the administration screens.
 
 Main functions:
-- allow to change menu structure and menu items properties (caption, shortcut, icon, etc) using the administration screens
+- Enables changing menu structure and menu item properties (caption, shortcut, icon, etc.) using the administration screens
   at runtime.
-- allow to use multiple main menus with different structure for different use groups
+- Enables using multiple main menus with different structure for different user groups.
 
-Use cases:
-- administrators need to change the main menu at runtime without development and deployment of a new application version.
-- different user groups need main menus with different structure, these menus must be configurable.
+![screenshot1](https://user-images.githubusercontent.com/11490702/211079118-cd1b182c-2b75-4c1f-974d-dd84076fb764.png)
