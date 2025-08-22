@@ -3,8 +3,8 @@ description: Publish a new Addon to the Jmix Marketplace
 title: "[Add-On] "
 labels: ["add-on"]
 assignees:
-  - SofiaOganova
   - knstvk
+  - glebfox
 body:
   - type: markdown
     attributes:
@@ -15,7 +15,7 @@ body:
 
         1. Submit a new add-on via this form
         2. We will check the add-on and create a proxy maven repo on https://global.repo.jmix.io/
-        3. You create a PR with the description of your add-on in the [add-on part](https://github.com/Haulmont/jmix-website-content/tree/master/Content/Add-ons) of this repo
+        3. You create a PR with the description of your add-on in the [add-on part](https://github.com/jmix-framework/jmix-website-content/tree/master/Content/Add-ons) of this repo
         4. We accept the PR and publish the content on the website
 
         If you want to do changes to your description, feel free to create another PR with your desired changes in this repository.
